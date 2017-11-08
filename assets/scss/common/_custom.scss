@@ -1,0 +1,25 @@
+//
+// Color system
+//
+
+$red:     	#a92d30;
+$pink:		#f8efe5;
+$blue:		#0079c2;
+$sky-blue:	#d3eeff;
+
+$colors: (
+  red: $red
+);
+
+$theme-colors: (
+  primary: $red
+);
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:            theme-color("primary");
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%);
+$link-hover-decoration: underline;

@@ -12,7 +12,7 @@ gulp.task('serve', function() {
         server: "./"
     });
 
-    gulp.watch("assets/scss/*.scss", ['styles']);
+    gulp.watch("assets/scss/**/*.scss", ['styles']);
     gulp.watch("assets/js/*.js", ['scripts']);
     gulp.watch("*.html").on('change', browserSync.reload);
 });
@@ -28,11 +28,11 @@ gulp.task('styles', function() {
 
 // Compile js into dist folder
 gulp.task('scripts', function() {
-    return gulp.src("assets/js/*.js")
+    return gulp.src(['./assets/js/owl.carousel.js', './assets/js/app.js'])
         .pipe(concat('concat.js'))
         .pipe(rename('app.js'))
         .pipe(gulp.dest("dist/js"))
         .pipe(browserSync.stream());
 });
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['styles','scripts','serve']);

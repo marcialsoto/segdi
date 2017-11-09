@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'robotolight';
+    src: url('../fonts/lato/roboto/Roboto-Light.eot');
+    src: url('../fonts/roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/roboto/Roboto-Light.woff') format('woff'),
+         url('../fonts/roboto/Roboto-Light.ttf') format('truetype'),
+         url('../fonts/roboto/Roboto-Light.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latobold';
+    src: url('../fonts/lato/Lato-Bold.eot');
+    src: url('../fonts/lato/Lato-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/Lato-Bold.woff2') format('woff2'),
+         url('../fonts/lato/Lato-Bold.woff') format('woff'),
+         url('../fonts/lato/Lato-Bold.ttf') format('truetype'),
+         url('../fonts/lato/Lato-Bold.svg#latobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato/Lato-Regular.eot');
+    src: url('../fonts/lato/Lato-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/Lato-Regular.woff2') format('woff2'),
+         url('../fonts/lato/Lato-Regular.woff') format('woff'),
+         url('../fonts/lato/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/lato/Lato-Regular.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'latolight';
+    src: url('../fonts/lato/Lato-Light.eot');
+    src: url('../fonts/lato/Lato-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lato/Lato-Light.woff2') format('woff2'),
+         url('../fonts/lato/Lato-Light.woff') format('woff'),
+         url('../fonts/lato/Lato-Light.ttf') format('truetype'),
+         url('../fonts/lato/Lato-Light.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+	@include font-family();
+}
+
+.hide{
+	opacity: 0;
+     @include fadeOutDown(
+	    $duration: 1s,
+	    $delay: .2s,
+	    $function: ease, 
+	    $fill: both
+	  );
+}
+
+.show{
+     @include fadeInUp(
+	    $duration: 1s,
+	    $delay: .2s,
+	    $function: ease, 
+	    $fill: both
+	  );
+}
+
+.wrap{
+	@extend .container;
+	.content{
+		@extend .row;
+		margin-bottom: 2rem;
+	}
+}
+
+.dataTables_wrapper{
+	padding-left: 0;
+	padding-right: 0;
+	.dataTable{
+		@extend .table;
+		@extend .table-striped;
+		@extend .table-bordered;
+		//@extend .table-sm;
+		thead, tfoot{
+			tr{
+				@extend .bg-info;
+				th{
+					color: $white;
+				}
+			}
+		}
+		tbody{
+			tr{
+				&.odd{
+					background-color: $sky-blue;
+				}
+				&.even{
+					background-color: lighten($sky-blue, 5%);
+				}
+				td{
+					a{
+						color: $blue;
+						&:hover{
+							color: lighten($blue, 5%);
+						}
+					}
+					h4{
+						font-size: 1.25rem;
+					}
+					p{
+						font-size: 80%;
+						&:last-child{
+							margin-bottom: 0;
+						}
+					}
+					&.text-center{
+						a{
+						color: $red;
+						&:hover{
+								color: lighten($red, 5%);
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

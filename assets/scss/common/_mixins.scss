@@ -1,0 +1,12 @@
+// Text render
+@mixin text-render(){
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+// Fuentes
+@mixin font-family( $font: 'roboto',$variation: 'light' ){
+  font-family: '#{$font}#{$variation}', sans-serif;
+  @include text-render();
+}

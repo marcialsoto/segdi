@@ -2,12 +2,20 @@
 
 @import "common/_custom";
 @import "common/_mixins";
+
 @import "layouts/_header";
+@import "layouts/_nav";
 @import "layouts/_masshead";
 @import "layouts/_footer";
+@import "components/animate-scss/animate.scss";
 @import "components/font-awesome/font-awesome";
-@import "components/owl-carousel/owl-carousel";
-@import "components/_nav";
+@import "components/owl-carousel/owl.carousel.scss";
+@import "components/owl-carousel/owl.theme.default.scss";
+@import "components/owl-carousel/owl.theme.green.scss";
+@import "components/dataTables/dataTables";
+
+@import "common/_global";
+
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {}
@@ -176,38 +184,82 @@ a{
 	}
 }
 
-.wrap{
-	@extend .container;
-	.content{
-		@extend .row;
-	}
-}
-
-
 .slider-main{
+	background-image: url('../images/main_slider__bg.png');
+	background-repeat: no-repeat;
+	background-position: botom center;
 	background-color: $pink;
-	.item-container{
-		@extend .row;
-		@extend .align-items-center;
-		.slider-content{
-			@extend .col;
-			h3{
-				font-size: 3.5rem;
-				color: $red;
+	background-size: cover;
+	.owl-item{
+		.item-container{
+			@extend .row;
+			@extend .align-items-center;
+			.slider-content{
+				@extend .col;
+				opacity: 0;
+				h3{
+					@include font-family('lato','bold')
+					font-size: 3.5rem;
+					color: $red;
+				}
+				p{
+					font-size: 16px;
+				}
+				.btn{
+					@include font-family('lato','bold')
+					text-transform: uppercase;
+					@extend .rounded-0;
+				}
 			}
-			p{
-				font-size: 16px;
-			}
-			.btn{
+			.slider-image{
+				@extend .col;
+				opacity: 0;
+				img{
+					width: auto;
+				}
 
 			}
 		}
-		.slider-image{
-			@extend .col;
-			img{
-				width: auto;
+		&.active{
+			.item-container{
+				.slider-content{
+					@include fadeInDown(
+					    $duration: 1s,
+					    $delay: .2s,
+					    $function: ease, 
+					    $fill: both
+					  );
+				}
+				.slider-image{
+					@include fadeInUp(
+					    $duration: 1s,
+					    $delay: .2s,
+					    $function: ease, 
+					    $fill: both
+					  );
+				}
 			}
+		}
+	}
 
+	.owl-dots{
+		.owl-dot{
+			span{
+				width: 4rem;
+				height: 0.35rem;
+				background: lighten($red, 35%);
+				border-radius: 0;
+			}
+			&:hover{
+				span{
+					background: lighten($red, 20%); 
+				}
+			}
+			&.active{
+				span{
+					background: $red;
+				}
+			}
 		}
 	}
 }

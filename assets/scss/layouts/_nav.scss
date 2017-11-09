@@ -1,7 +1,7 @@
 nav{
 	&.navbar-primary{
 		@extend .navbar;
-		@extend .navbar-expand-lg;
+		@extend .navbar-expand-md;
 		@extend .navbar-light;
 		@extend .bg-light;
 		background-color: $white !important;
@@ -18,6 +18,13 @@ nav{
 					}
 				}
 			}
+		}
+		&.fixed-top {
+		    position: fixed;
+		    top: 0;
+		    right: 0;
+		    left: 0;
+		    z-index: 1030;
 		}
 	}
 }

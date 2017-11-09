@@ -11,10 +11,14 @@
 	<link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
-  <header class="navbar navbar-expand-md navbar-primary">
-    <div class="container">
-      <a class="navbar-brand" href="./"><img src="./dist/images/logo--sm.jpg" alt=""></a>
-        <form class="form-inline ml-auto">
+  <header class="header-primary">
+    <div class="wrap">
+      <div class="content">
+       <div class="logo">
+         <a class="navbar-brand" href="./"><img src="./dist/images/logo__header.png" alt=""></a>
+       </div>
+       <div class="searchbox">
+         <form class="form-inline ml-auto">
           <div class="input-group">
             <input type="text" class="form-control" placeholder="Buscar en SegDi..." aria-label="Buscar...">
             <span class="input-group-btn">
@@ -22,18 +26,18 @@
             </span>
           </div>
         </form>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Contacto <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">+511 219 7000</a>
-          </li>
-        </ul>
+       </div>
+       <div class="contact">
+         <nav>
+          <a class="" href="#">Contacto</a>
+          <a class="" href="#">+511 219 7000</a>
+        </nav>
+       </div>
+      </div>
     </div>
   </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar-primary">
     <div class="container">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -41,22 +45,22 @@
                                         
       <div class="collapse navbar-collapse" id="navbarsExample07">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          <li class=" active">
+            <a class="" href="./">Inicio <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Quienes Somos</a>
+          <li class="">
+            <a class="" href="./quienes-somos.html">Quienes Somos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Normatividad</a>
+          <li class="">
+            <a class="" href="#">Normatividad</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Seguridad de la Informacion</a>
+          <li class="">
+            <a class="" href="#">Seguridad de la Informacion</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sistema Nacional de Informatica</a>
+          <li class="">
+            <a class="" href="#">Sistema Nacional de Informatica</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class=" dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown07" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mas...</a>
             <div class="dropdown-menu" aria-labelledby="dropdown07">
               <a class="dropdown-item" href="#">Smart Cities</a>
@@ -161,8 +165,6 @@
   <section class="section services">
     <div class="wrap">
       <div class="content">
-        <main class="main">
-          <div class="wrapper">
             <div class="page-header">
               <h2>Nuestros Servicios</h2>
             </div>
@@ -178,26 +180,185 @@
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="gobierno" role="tabpanel" aria-labelledby="gobierno-tab">
                   <div id="services-1" class="owl-carousel owl-theme">
-                      <div class="item"><h4>1</h4></div>
-                      <div class="item"><h4>2</h4></div>
-                      <div class="item"><h4>3</h4></div>
-                      <div class="item"><h4>4</h4></div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 1</a></h4>
+                            <p>Qcaecati delectus maxime numquam facere labore velit, vero recusandae at aliquam ipsa.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 2</a></h4>
+                            <p>Quidem dolores facilis asperiores nam mollitia vitae officiis neque similique magni, earum.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 3</a></h4>
+                            <p>Qmi laudantium expedita! Sed officia magnam sunt alias quis quae est deserunt, numquam!</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 4</a></h4>
+                            <p>Qremque dolor error distinctio quam, accusamus, cum quaerat, facilis minima aperiam minus.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 5</a></h4>
+                            <p>Qam, sequi consequuntur incidunt? Eos dignissimos hic totam ab modi quam optio, aliquid!</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio a Gobierno 6</a></h4>
+                            <p>Qibus dignissimos, aliquam, obcaecati accusantium reprehenderit, facilis quos, non reiciendis optio quam doloremque minus ex.</p>
+                          </div>
+                        </article>
+                      </div>
                   </div>
                 </div>
+
                 <div class="tab-pane fade" id="ciudadania" role="tabpanel" aria-labelledby="ciudadania-tab">
                   <div id="services-2" class="owl-carousel owl-theme">
-                      <div class="item"><h4>5</h4></div>
-                      <div class="item"><h4>6</h4></div>
-                      <div class="item"><h4>7</h4></div>
-                      <div class="item"><h4>8</h4></div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 1</a></h4>
+                            <p>Qquibusdam, maiores saepe perferendis magnam sit natus sint. Voluptatem sapiente voluptatibus tenetur at ad.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 2</a></h4>
+                            <p>Qtium facere labore doloribus quam at, vel excepturi iusto dicta saepe reprehenderit soluta voluptatem, aliquid perferendis.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 3</a></h4>
+                            <p>Qit labore in magni dignissimos obcaecati, id sunt autem quidem est dolore saepe?</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 4</a></h4>
+                            <p>Qcati sapiente iusto cumque aliquid quibusdam, unde dolores dolorem, consequatur nobis doloremque.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 5</a></h4>
+                            <p>Qllitia placeat exercitationem nemo quisquam incidunt libero! Odit pariatur qui accusamus aut architecto quae.</p>
+                          </div>
+                        </article>
+                      </div>
+                      <div class="item">
+                        <article class="entry">
+                          <img class="" src="http://via.placeholder.com/275x250" alt="Card image cap">
+                          <div class="entry-content">
+                            <h4><a href="#">Servicio al Ciudadano 6</a></h4>
+                            <p>Qtate odio consequuntur. Error ipsam cumque velit deleniti consequuntur ab et exercitationem, fugiat ut.</p>
+                          </div>
+                        </article>
+                      </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </main>
       </div>
     </div>
+  </section>
+
+  <footer class="section footer">
+    <div class="wrap">
+      <div class="content footer-pre">
+        <div class="segdi">
+          
+          <address>
+            <ul class="fa-ul">
+              <li><i class="fa-li fa fa-map"></i> <a href="#">Francisco de Toledo 219, Urb. La Virreyna, Surco</a>
+</li>
+              <li><i class="fa-li fa fa-phone"></i> <a href="#">+511 219 7000  [axos. 5103, 5109]</a></li>
+              <li><i class="fa-li fa fa-envelope-open-o"></i> <a href="#">gobiernodigital@pcm.gob.pe </a></li>
+            </ul>
+          </address>
+        </div>
+        <div class="social">
+          <ul class="social-nav">
+            <li class="facebook">
+              <a class="" href="#">     
+                  <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="twitter">
+              <a class="" href="#">
+                  <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="linkedin">
+              <a class="" href="#"> 
+                  <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+            <li class="youtube">
+              <a class="" href="#">
+                  <i class="fa fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+ 
+      </div>
+
+      <div class="content footer-post">
+        <div class="peru">
+          <nav class="nav">
+            <a class="nav-link active" href="#"><img src="./dist/images/logo__footer.png" alt=""></a>
+            <a class="nav-link" href="#"><img src="./dist/images/peru__logo.png" alt=""></a>
+          </nav>
+        </div>
+        
+        <div class="top">
+          <a href="#"><i class="fa fa-chevron-up"></i><br>Subir</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <section class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.538700457222!2d-76.99798914999758!3d-12.143683091360582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105b8111e81ac53%3A0x57a370b17bd3ea3a!2sSEGDI+-+PCM!5e0!3m2!1ses!2spe!4v1510207981843" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
   </section>
 
 	<script src="../node_modules/jquery/dist/jquery.js"></script>

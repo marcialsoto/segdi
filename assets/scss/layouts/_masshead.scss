@@ -1,0 +1,31 @@
+.masshead{
+	@extend .jumbotron;
+	background-color: $pink;
+	nav#breadcrumb{
+		@extend .col-auto;
+
+		ol{
+			@extend .breadcrumb;
+			padding: 0;
+		background-color: transparent;
+		}
+	}
+	.page-title{
+		@extend .media;
+		@extend .col-sm-12;
+		.page-body{
+			@extend .media-body;
+			h1{
+				@extend .mt-0;
+				font-size: 3.5rem;
+				color: $red;
+			}
+		}
+		i{
+			@extend .ml-5;
+			color: $red;
+			font-size: 5rem;
+			text-shadow: 4px 3px 0 $pink, 9px 8px 0 rgba(169, 45, 48, 0.25);
+		}
+	}
+}

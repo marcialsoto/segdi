@@ -1,0 +1,23 @@
+nav{
+	&.navbar-primary{
+		@extend .navbar;
+		@extend .navbar-expand-lg;
+		@extend .navbar-light;
+		@extend .bg-light;
+		background-color: $white !important;
+		.navbar-nav{
+			li{
+				@extend .nav-item;
+				a{
+					@extend .nav-link;
+					text-transform: uppercase;
+				}
+				&.active{
+					a{
+						color: $red;
+					}
+				}
+			}
+		}
+	}
+}

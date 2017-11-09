@@ -1,5 +1,42 @@
 header{
-	&.header-brand{
-		background: gold;
+	&.header-primary{
+		padding: 1.25rem 1rem;
+		background: $white;
+		.content{
+			@extend .align-items-center;
+			.logo{
+				@extend .col-sm-5;
+			}
+			.searchbox{
+				@extend .col-sm-4;
+				form{
+					.input-group{
+						width: 100%;
+						input, button{
+							@extend .rounded-0;
+						}
+						button{
+							background-color: transparent;
+
+							i{
+								color: $red;
+							}
+						}
+					}
+				}
+			}
+			.contact{
+				@extend .col-sm-3;
+			}
+			.contact {
+				nav{
+					@extend .nav;
+					@extend .justify-content-end;
+					a{
+						@extend .nav-link;
+					}
+				}
+			}
+		}
 	}
 }

@@ -3,16 +3,14 @@
 @import "common/_custom";
 @import "common/_mixins";
 @import "layouts/_header";
+@import "layouts/_masshead";
+@import "layouts/_footer";
 @import "components/font-awesome/font-awesome";
 @import "components/owl-carousel/owl-carousel";
+@import "components/_nav";
 
 /* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {}
-
-.navbar-primary{
-	padding: 1.5rem 1rem;
-	background: $white;
-}
 
 a{
 	color: $link-color;
@@ -22,11 +20,9 @@ a{
 }
 
 .section{
-	padding: 50px 0;
+	padding: 4rem 0 3rem;
 	.wrap{
-		@extend .container;
 		.content{
-			@extend .row;
 			main{
 				@extend .col-sm-9;
 				.wrapper{
@@ -93,31 +89,77 @@ a{
 			}
 		}
 	}
+	
 	&.services{
 		background-color: $sky-blue;
 		.wrap{
 			.content{
-				main{
+				@extend .row;
+				.page-header{
 					@extend .col-sm-12;
-					.wrapper{
-						@extend .row;
-						.page-header{
-							text-align: center;
+					text-align: center;
+					margin-bottom: 0.25rem;
+					h2{
+						color: $blue;
+					}
+				}
+
+				.service{
+					@extend .col-sm-12;
+					ul{
+						@extend .justify-content-center;
+						margin-bottom: 2rem;
+						li{
+							@extend .nav-item;
+							a{
+								@extend .nav-link;
+								@extend .btn;
+								@extend .btn-outline-primary;
+								@extend .btn-sm;
+								@extend .rounded-0;
+								&.active{ 
+									@extend .active;
+								}
+							}
 						}
-						.service{
-							@extend .col-sm-12;
-							ul{
-								@extend .justify-content-center;
-								li{
-									@extend .nav-item;
-									a{
-										@extend .nav-link;
-										@extend .btn;
-										@extend .btn-outline-primary;
-										@extend .btn-sm;
-										@extend .rounded-0;
-										&.active{ 
-											@extend .active;
+					}
+					.tab-content{
+						.owl-carousel{
+							.item{
+								article{
+									background-color: transparent;
+									.entry-content{
+										position: absolute;
+										bottom: 0;
+										left: 0;
+										right: 0;
+										background-color: rgba(255, 255, 255, 0.85);
+										padding: 1.25rem;
+										h4{
+											a{
+												@extend .card-title;
+									            font-size: 1.15rem;
+									            margin-bottom: 0.15rem;
+												color: $blue;
+												&:hover{
+													color: darken($blue, 15%);
+												}
+											}
+										}
+										p{
+											padding-top: 0.25rem;
+											display: none;
+											color: $gray-700;
+											font-size: 90%;
+										}
+									}
+									&:hover{
+										.entry-content{
+											top: 0;
+											background-color: rgba(255, 255, 255, 0.7);
+											p{
+												display: block;
+											}
 										}
 									}
 								}
@@ -128,11 +170,19 @@ a{
 			}
 		} 
 	}
+	
+	&.footer{
+		background-color: $gray-700;
+	}
 }
 
-.content{
-	@extend .row;
+.wrap{
+	@extend .container;
+	.content{
+		@extend .row;
+	}
 }
+
 
 .slider-main{
 	background-color: $pink;
@@ -142,7 +192,7 @@ a{
 		.slider-content{
 			@extend .col;
 			h3{
-				font-size: 50px;
+				font-size: 3.5rem;
 				color: $red;
 			}
 			p{
@@ -160,16 +210,4 @@ a{
 
 		}
 	}
-}
-
-.tab-content > .tab-pane {
-	display: block;
-    visibility: hidden;
-    height: 0px;
-    overflow:hidden;
-}
-.tab-content > .active {
-    visibility: visible;
-    height: auto;
-    overflow: visible;
 }

@@ -1,0 +1,93 @@
+footer{
+	font-size: 80%;
+	a{
+		color: $gray-300;
+		&:hover{
+			color: $white;
+		}
+	}
+
+	.footer-pre{
+		@extend .align-items-center;
+		.segdi{
+			@extend .col-sm-4;
+			@extend .mr-auto;
+			address{
+				ul{
+					@extend .nav; 
+					@extend .flex-column;
+					margin-top: 1.75rem;
+					li{
+						@extend .nav-item;
+						i{
+							top: 0.4em;
+							color: $gray-600;
+						}
+						a{
+							@extend .nav-link;
+							padding: 0.15rem 0;
+
+						}
+					}
+				}
+			}
+		}
+		.social{
+			@extend .col-sm-4;
+			ul.social-nav{
+				@extend .nav; 
+				@extend .justify-content-end;
+				li{
+					@extend .nav-item;
+					a{
+						@extend .nav-link;
+						
+						i{
+							font-size: 1.25rem;
+						}
+					}
+					&.facebook{
+						a{
+							&:hover{
+								color: $blue;
+							}
+						}
+					}
+					&.twitter{
+						a{
+							&:hover{
+								color: $sky-blue;
+							}
+						}
+					}
+					&.linkedin{
+						a{
+							&:hover{
+								color: $blue;
+							}
+						}
+					}
+					&.youtube{
+						a{
+							&:hover{
+								color: $red;
+							}
+						}
+					}
+				} 
+			}
+		}
+		
+	}
+
+	.footer-post{
+		@extend .align-items-center;
+		.peru{
+			@extend .mr-auto;
+		}
+		.top{
+			text-align: center;
+		}
+		
+	}
+}

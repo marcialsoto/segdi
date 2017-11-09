@@ -1694,7 +1694,7 @@
 //import '../node_modules/bootstrap/dist/js/bootstrap';
 $('#home-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:0,
     nav:true,
     items: 1
 });
@@ -1702,7 +1702,7 @@ $('#home-carousel').owlCarousel({
 function initialize_owl(el) {
     el.owlCarousel({
         loop: true,
-        margin: 15,
+        margin: 30,
         responsiveClass: true,
         responsive: {
             0: {

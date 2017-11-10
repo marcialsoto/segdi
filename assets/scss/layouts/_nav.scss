@@ -29,3 +29,17 @@ nav{
 		}
 	}
 }
+
+.dropdown-menu{
+	border-radius: 0;
+	a{
+		font-size: 0.75rem;
+		padding-left: 0.5rem !important;
+		padding-right: 0.5rem !important;
+		&.active{
+			color: $white !important;
+			background-color: $red;
+		}
+
+	}
+}

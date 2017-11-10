@@ -4,6 +4,7 @@ nav{
 		@extend .navbar-expand-md;
 		@extend .navbar-light;
 		@extend .bg-light;
+		z-index: $zindex-dropdown;
 		background-color: $white !important;
 		.navbar-nav{
 			li{

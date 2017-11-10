@@ -2,10 +2,26 @@ header{
 	&.header-primary{
 		padding: 1.25rem 1rem;
 		background: $white;
+		@include media-breakpoint-down(xs) {
+			padding-bottom: 0;
+		}
 		.content{
 			@extend .align-items-center;
+			@include media-breakpoint-down(xs) {
+				margin-bottom: 0;
+			}
 			.logo{
 				@extend .col-sm-5;
+				@include media-breakpoint-down(xs) {
+					text-align: center;
+					a{
+						display: block;
+						margin: auto;
+						img{
+							max-width: 100%
+						}
+					}
+				}
 			}
 			.searchbox{
 				@extend .col-sm-4;
@@ -31,7 +47,10 @@ header{
 			.contact {
 				nav{
 					@extend .nav;
-					@extend .justify-content-end;
+					@include media-breakpoint-down(xs) {
+						justify-content: center !important;
+					}
+					justify-content: flex-end !important;
 					a{
 						@extend .nav-link;
 					}

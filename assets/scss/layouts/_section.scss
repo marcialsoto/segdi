@@ -1,4 +1,7 @@
 .section{
+	@include media-breakpoint-down(xs) {
+		padding: 2rem 0 1rem;
+	}
 	padding: 4rem 0 3rem;
 	.wrap{
 		.content{
@@ -18,6 +21,9 @@
           					padding: 0.5rem 0 1.25rem;
           					h4{
 					            @extend .card-title;
+					            @include media-breakpoint-down(xs) {
+					            	font-size: 1rem;
+					            }
 					            font-size: 1.15rem;
 					            margin-bottom: 0.15rem;
 					        }
@@ -56,6 +62,9 @@
 									line-height: 1;
 								}
 								h4{
+									@include media-breakpoint-down(xs) {
+						            	font-size: 1rem;
+						            }
 									font-size: 1.15rem;
 									a{
 										color: $white;
@@ -128,6 +137,9 @@
 										h4{
 											a{
 												@extend .card-title;
+												@include media-breakpoint-down(xs) {
+									            	font-size: 1rem;
+									            }
 									            font-size: 1.15rem;
 									            margin-bottom: 0.15rem;
 												color: $blue;
@@ -184,12 +196,15 @@
 				@extend .col;
 				opacity: 0;
 				h3{
-					@include font-family('lato','bold')
+					@include font-family('lato','bold');
+					@include media-breakpoint-down(xs) {
+						font-size: 2rem;
+					}
 					font-size: 3.5rem;
 					color: $red;
 				}
 				p{
-					font-size: 16px;
+					font-size: 1rem;
 				}
 				.btn{
 					@include font-family('lato','bold')
@@ -198,6 +213,9 @@
 				}
 			}
 			.slider-image{
+				@include media-breakpoint-down(xs) {
+					display: none;
+				}
 				@extend .col;
 				opacity: 0;
 				img{

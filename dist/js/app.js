@@ -3,15 +3,19 @@ home.owlCarousel({
     loop: false,
     dots: true,
     nav: false,
-    items: 1
+    items: 1,
+    autoplay:true,
+    autoplayTimeout: 5000
 });
 
 function initialize_owl(el) {
     el.owlCarousel({
-        loop: false,
+        loop: true,
         margin: 30,
         nav: false,
         dots: true,
+        autoplay:true,
+        autoplayTimeout: 5000,
         responsiveClass: true,
         responsive: {
             0: {

@@ -50,6 +50,13 @@ body{
 	@include font-family();
 }
 
+a{
+	color: $link-color;
+	&:hover{
+		color: $link-hover-color;
+	}
+}
+
 .hide{
 	opacity: 0;
      @include fadeOutDown(
@@ -74,8 +81,25 @@ body{
 	.content{
 		@extend .row;
 		margin-bottom: 2rem;
+
 	}
 }
+.section{
+	.page-header{
+		padding-bottom: 1.25rem;
+		h2{
+			@include font-family('lato','light');
+			font-size: 2.25rem;
+			a{
+				color: $gray-500;
+				&:hover{
+					color: $gray-700;
+				}
+			}
+		}
+	}
+}
+		
 
 .dataTables_wrapper{
 	padding-left: 0;
@@ -126,6 +150,32 @@ body{
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+
+.owl-stage-outer{
+	margin-bottom: 20px;
+}
+
+.owl-dots{
+	.owl-dot{
+		span{
+			width: 4rem;
+			height: 0.35rem;
+			background: lighten($gray-500, 35%);
+			border-radius: 0;
+		}
+		&:hover{
+			span{
+				background: lighten($gray-500, 20%); 
+			}
+		}
+		&.active{
+			span{
+				background: $gray-500;
 			}
 		}
 	}

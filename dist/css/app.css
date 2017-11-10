@@ -518,7 +518,7 @@ pre {
   padding-left: 15px;
   width: 100%; }
 
-.row, .wrap .content, .section .wrap .content aside .wrapper, .section.services .wrap .content, .slider-main .owl-item .item-container {
+.row, .section .wrap .content aside .wrapper, .section.services .wrap .content, .slider-main .owl-item .item-container, .wrap .content {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2926,39 +2926,39 @@ tbody.collapse.show {
   margin-bottom: 0;
   list-style: none; }
 
-.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, footer .footer-pre .segdi address ul li a, footer .footer-pre .social ul.social-nav li a, .section.services .wrap .content .service ul li a {
+.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, .section.services .wrap .content .service ul li a, footer .footer-pre .segdi address ul li a, footer .footer-pre .social ul.social-nav li a {
   display: block;
   padding: 0.5rem 1rem; }
-  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .social ul.social-nav li a:focus, .section.services .wrap .content .service ul li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .social ul.social-nav li a:hover, .section.services .wrap .content .service ul li a:hover {
+  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, .section.services .wrap .content .service ul li a:focus, footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .social ul.social-nav li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, .section.services .wrap .content .service ul li a:hover, footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .social ul.social-nav li a:hover {
     text-decoration: none; }
-  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .social ul.social-nav li a.disabled, .section.services .wrap .content .service ul li a.disabled {
+  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .section.services .wrap .content .service ul li a.disabled, footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .social ul.social-nav li a.disabled {
     color: #868e96; }
 
 .nav-tabs {
   border-bottom: 1px solid #ddd; }
-  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-tabs li, .nav-tabs footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-tabs li, .nav-tabs .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-tabs li {
+  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-tabs li, .nav-tabs footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-tabs li, .nav-tabs footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-tabs li {
     margin-bottom: -1px; }
-  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .nav-tabs a, .nav-tabs footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .nav-tabs a, .nav-tabs .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-tabs a {
+  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-tabs a, .nav-tabs footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .nav-tabs a, .nav-tabs footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .nav-tabs a {
     border: 1px solid transparent;
     -webkit-border-top-left-radius: 0.25rem;
             border-top-left-radius: 0.25rem;
     -webkit-border-top-right-radius: 0.25rem;
             border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .nav-tabs a:focus, .nav-tabs footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .nav-tabs a:focus, .nav-tabs .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .nav-tabs a:hover, .nav-tabs footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .nav-tabs a:hover, .nav-tabs .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .nav-tabs a:hover {
+    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .nav-tabs a:focus, .nav-tabs footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .nav-tabs a:focus, .nav-tabs footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .nav-tabs a:hover, .nav-tabs footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .nav-tabs a:hover, .nav-tabs footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .nav-tabs a:hover {
       border-color: #e9ecef #e9ecef #ddd; }
-    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .nav-tabs a.disabled, .nav-tabs footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .nav-tabs a.disabled, .nav-tabs .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .nav-tabs a.disabled {
+    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .nav-tabs a.disabled, .nav-tabs footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .nav-tabs a.disabled, .nav-tabs footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .nav-tabs a.disabled {
       color: #868e96;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li .nav-tabs a.active, .nav-tabs footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li .nav-tabs a.active, .nav-tabs .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-tabs a.active,
+  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-tabs a.active, .nav-tabs footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li .nav-tabs a.active, .nav-tabs footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li .nav-tabs a.active,
   .nav-tabs .nav-item.show .nav-link,
   .nav-tabs nav.navbar-primary .navbar-nav li.show .nav-link, nav.navbar-primary .navbar-nav
+  .nav-tabs li.show .nav-link,
+  .nav-tabs .section.services .wrap .content .service ul li.show .nav-link, .section.services .wrap .content .service ul
   .nav-tabs li.show .nav-link,
   .nav-tabs footer .footer-pre .segdi address ul li.show .nav-link, footer .footer-pre .segdi address ul
   .nav-tabs li.show .nav-link,
   .nav-tabs footer .footer-pre .social ul.social-nav li.show .nav-link, footer .footer-pre .social ul.social-nav
-  .nav-tabs li.show .nav-link,
-  .nav-tabs .section.services .wrap .content .service ul li.show .nav-link, .section.services .wrap .content .service ul
   .nav-tabs li.show .nav-link,
   .nav-tabs .nav-item.show header.header-primary .content .contact nav a, header.header-primary .content .contact nav
   .nav-tabs .nav-item.show a,
@@ -2966,6 +2966,11 @@ tbody.collapse.show {
   .nav-tabs .nav-item.show a,
   .nav-tabs nav.navbar-primary .navbar-nav li.show a, nav.navbar-primary .navbar-nav
   .nav-tabs li.show a,
+  .nav-tabs .nav-item.show .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
+  .nav-tabs .nav-item.show a,
+  .nav-tabs .section.services .wrap .content .service ul li.show a, .section.services .wrap .content .service ul
+  .nav-tabs li.show a, .section.services .wrap .content .service
+  .nav-tabs footer .footer-pre .segdi address ul li.show a,
   .nav-tabs .nav-item.show footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li
   .nav-tabs .nav-item.show a,
   .nav-tabs footer .footer-pre .segdi address ul li.show a, footer .footer-pre .segdi address ul
@@ -2973,11 +2978,6 @@ tbody.collapse.show {
   .nav-tabs .nav-item.show footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li
   .nav-tabs .nav-item.show a,
   .nav-tabs footer .footer-pre .social ul.social-nav li.show a, footer .footer-pre .social ul.social-nav
-  .nav-tabs li.show a,
-  .nav-tabs .nav-item.show .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
-  .nav-tabs .nav-item.show a, .section.services .wrap .content .service
-  .nav-tabs footer .footer-pre .segdi address ul li.show a,
-  .nav-tabs .section.services .wrap .content .service ul li.show a, .section.services .wrap .content .service ul
   .nav-tabs li.show a {
     color: #495057;
     background-color: #fff;
@@ -2989,32 +2989,32 @@ tbody.collapse.show {
     -webkit-border-top-right-radius: 0;
             border-top-right-radius: 0; }
 
-.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .nav-pills a, .nav-pills footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .nav-pills a, .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-pills a {
+.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-pills a, .nav-pills footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .nav-pills a, .nav-pills footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .nav-pills a {
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
-  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li .nav-pills a.active, .nav-pills footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li .nav-pills a.active, .nav-pills .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-pills a.active,
+  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-pills a.active, .nav-pills footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li .nav-pills a.active, .nav-pills footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li .nav-pills a.active,
   .show > .nav-pills .nav-link,
   .show > .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav
   .show > .nav-pills a,
   .show > .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li
   .show > .nav-pills a,
+  .show > .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
+  .show > .nav-pills a,
   .show > .nav-pills footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li
   .show > .nav-pills a,
   .show > .nav-pills footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li
-  .show > .nav-pills a,
-  .show > .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
   .show > .nav-pills a {
     color: #fff;
     background-color: #007bff; }
 
-.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-fill li, .nav-fill footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-fill li, .nav-fill .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-fill li {
+.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-fill li, .nav-fill footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-fill li, .nav-fill footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-fill li {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   text-align: center; }
 
-.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-justified li, .nav-justified footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-justified li, .nav-justified .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-justified li {
+.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-justified li, .nav-justified footer .footer-pre .segdi address ul li, footer .footer-pre .segdi address ul .nav-justified li, .nav-justified footer .footer-pre .social ul.social-nav li, footer .footer-pre .social ul.social-nav .nav-justified li {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -3090,7 +3090,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-nav a, .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-nav a, .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-nav a {
+  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-nav a, .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-nav a, .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-nav a {
     padding-right: 0;
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
@@ -3163,7 +3163,7 @@ tbody.collapse.show {
       .navbar-expand-sm .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-sm .navbar-nav a {
+      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-sm .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-sm > .container, .navbar-expand-sm > .wrap,
@@ -3210,7 +3210,7 @@ tbody.collapse.show {
       .navbar-expand-md .navbar-nav .dropdown-menu-right, nav.navbar-primary .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a {
+      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-md > .container, nav.navbar-primary > .container, .navbar-expand-md > .wrap, nav.navbar-primary > .wrap,
@@ -3257,7 +3257,7 @@ tbody.collapse.show {
       .navbar-expand-lg .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-lg .navbar-nav a {
+      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-lg .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-lg > .container, .navbar-expand-lg > .wrap,
@@ -3304,7 +3304,7 @@ tbody.collapse.show {
       .navbar-expand-xl .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-xl .navbar-nav a {
+      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand-xl .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-xl > .container, .navbar-expand-xl > .wrap,
@@ -3348,7 +3348,7 @@ tbody.collapse.show {
     .navbar-expand .navbar-nav .dropdown-menu-right {
       right: 0;
       left: auto; }
-    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand .navbar-nav a {
+    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-expand .navbar-nav a {
       padding-right: .5rem;
       padding-left: .5rem; }
   .navbar-expand > .container, .navbar-expand > .wrap,
@@ -3369,14 +3369,14 @@ tbody.collapse.show {
   .navbar-light .navbar-brand:focus, nav.navbar-primary .navbar-brand:focus, .navbar-light .navbar-brand:hover, nav.navbar-primary .navbar-brand:hover {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a {
+.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:hover {
+  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a:hover {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .show > a,
+.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav .show > a,
 .navbar-light .navbar-nav .active > .nav-link, nav.navbar-primary .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav a.active > .nav-link, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active > .nav-link,
@@ -3388,34 +3388,34 @@ tbody.collapse.show {
 .navbar-light nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary
 .navbar-light .navbar-nav li .active > a, nav.navbar-primary .navbar-nav li .active > a, nav.navbar-primary .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav li a.active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav li a.active > a,
+.navbar-light .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
+.navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav footer .footer-pre .segdi address ul li .active > a, footer .footer-pre .segdi address ul li
 .navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li .active > a, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li .active > a, footer .footer-pre .social ul.social-nav li
 .navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li .active > a, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav .active > a,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav .nav-link.show, nav.navbar-primary .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav header.header-primary .content .contact nav a.show, header.header-primary .content .contact nav
 .navbar-light .navbar-nav a.show, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.show,
 .navbar-light nav.navbar-primary .navbar-nav li a.show, nav.navbar-primary
 .navbar-light .navbar-nav li a.show, nav.navbar-primary .navbar-nav li a.show,
+.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
+.navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a.show, footer .footer-pre .segdi address ul li
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a.show, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a.show, footer .footer-pre .social ul.social-nav li
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a.show, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a.show,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav .nav-link.active, nav.navbar-primary .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav
 .navbar-light .navbar-nav a.active, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.active,
 .navbar-light nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary
 .navbar-light .navbar-nav li a.active, nav.navbar-primary .navbar-nav li a.active, .section.services .wrap .content .service ul nav.navbar-primary .navbar-nav li a.active,
+.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
+.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active,
 .navbar-light .navbar-nav footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li
 .navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li nav.navbar-primary .navbar-nav a.active,
 .navbar-light .navbar-nav footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li
-.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a.active,
-.navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
-.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active {
+.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li nav.navbar-primary .navbar-nav a.active {
   color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler, nav.navbar-primary .navbar-toggler {
@@ -3433,14 +3433,14 @@ tbody.collapse.show {
   .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: white; }
 
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a {
   color: rgba(255, 255, 255, 0.5); }
-  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:hover {
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a:focus, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a:focus, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a:hover, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a:hover, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a:hover {
     color: rgba(255, 255, 255, 0.75); }
-  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a.disabled {
+  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a.disabled, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a.disabled, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav a.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
-.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav .show > a,
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li .show > a, footer .footer-pre .segdi address ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li .show > a, footer .footer-pre .social ul.social-nav li .navbar-dark .navbar-nav .show > a,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.active > .nav-link,
@@ -3453,22 +3453,22 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav li .active > a, .section.services .wrap .content .service ul li
 .navbar-dark nav.navbar-primary .navbar-nav li a.active > a, nav.navbar-primary .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav li a.active > a,
+.navbar-dark .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
+.navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li .active > a, footer .footer-pre .segdi address ul li
 .navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li .active > a, footer .footer-pre .social ul.social-nav li
-.navbar-dark .navbar-nav .active > a,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav header.header-primary .content .contact nav a.show, header.header-primary .content .contact nav
 .navbar-dark .navbar-nav a.show,
 .navbar-dark nav.navbar-primary .navbar-nav li a.show, nav.navbar-primary
 .navbar-dark .navbar-nav li a.show,
+.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
+.navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a.show, footer .footer-pre .segdi address ul li
 .navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a.show, footer .footer-pre .social ul.social-nav li
-.navbar-dark .navbar-nav a.show,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav
@@ -3477,11 +3477,11 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav li a.active,
 .navbar-dark .section.services .wrap .content .service ul nav.navbar-primary .navbar-nav li a.active, .section.services .wrap .content .service ul nav.navbar-primary
 .navbar-dark .navbar-nav li a.active,
+.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
+.navbar-dark .navbar-nav a.active,
 .navbar-dark .navbar-nav footer .footer-pre .segdi address ul li a.active, footer .footer-pre .segdi address ul li
 .navbar-dark .navbar-nav a.active,
 .navbar-dark .navbar-nav footer .footer-pre .social ul.social-nav li a.active, footer .footer-pre .social ul.social-nav li
-.navbar-dark .navbar-nav a.active,
-.navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.active {
   color: white; }
 
@@ -5259,7 +5259,7 @@ a.bg-dark:focus, a.bg-dark:hover {
       -ms-flex-align: end !important;
           align-items: flex-end !important; }
 
-.align-items-center, header.header-primary .content, footer .footer-pre, footer .footer-post, .slider-main .owl-item .item-container {
+.align-items-center, header.header-primary .content, .slider-main .owl-item .item-container, footer .footer-pre, footer .footer-post {
   -webkit-box-align: center !important;
   -webkit-align-items: center !important;
       -ms-flex-align: center !important;
@@ -7130,76 +7130,6 @@ a.text-dark:focus, a.text-dark:hover {
 
 .invisible {
   visibility: hidden !important; }
-
-header.header-primary {
-  padding: 1.25rem 1rem;
-  background: #fff; }
-  header.header-primary .content .searchbox form .input-group {
-    width: 100%; }
-    header.header-primary .content .searchbox form .input-group button {
-      background-color: transparent; }
-      header.header-primary .content .searchbox form .input-group button i {
-        color: #a92d30; }
-
-nav.navbar-primary {
-  background-color: #fff !important; }
-  nav.navbar-primary .navbar-nav li a {
-    text-transform: uppercase; }
-  nav.navbar-primary .navbar-nav li.active a {
-    color: #a92d30; }
-  nav.navbar-primary.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030; }
-
-.masshead {
-  padding: 4rem 2rem 0;
-  background-color: #f8efe5; }
-  .masshead nav#breadcrumb {
-    margin-top: 2rem; }
-    .masshead nav#breadcrumb ol {
-      padding: 0;
-      background-color: transparent; }
-  .masshead .page-title .page-body h1 {
-    font-family: "latobold", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-smoothing: antialiased;
-    text-transform: uppercase;
-    font-size: 3.5rem;
-    color: #a92d30; }
-  .masshead .page-title i {
-    color: #a92d30;
-    font-size: 5rem;
-    text-shadow: 4px 3px 0 #f8efe5, 9px 8px 0 rgba(169, 45, 48, 0.25); }
-
-footer {
-  font-size: 80%; }
-  footer a {
-    color: #dee2e6; }
-    footer a:hover {
-      color: #fff; }
-  footer .footer-pre .segdi address ul {
-    margin-top: 1.75rem; }
-    footer .footer-pre .segdi address ul li i {
-      top: 0.4em;
-      color: #868e96; }
-    footer .footer-pre .segdi address ul li a {
-      padding: 0.15rem 0; }
-  footer .footer-pre .social ul.social-nav li a i {
-    font-size: 1.25rem; }
-  footer .footer-pre .social ul.social-nav li.facebook a:hover {
-    color: #0079c2; }
-  footer .footer-pre .social ul.social-nav li.twitter a:hover {
-    color: #d3eeff; }
-  footer .footer-pre .social ul.social-nav li.linkedin a:hover {
-    color: #0079c2; }
-  footer .footer-pre .social ul.social-nav li.youtube a:hover {
-    color: #a92d30; }
-  footer .footer-post .top {
-    text-align: center; }
 
 @-webkit-keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -12409,114 +12339,58 @@ table.table-bordered.dataTable tbody td, .dataTables_wrapper table.dataTable tbo
 div.dataTables_scrollHead table.table-bordered, div.dataTables_scrollHead .dataTables_wrapper table.dataTable, .dataTables_wrapper div.dataTables_scrollHead table.dataTable {
   border-bottom-width: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row, .wrap div.table-responsive > div.dataTables_wrapper > div.content, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container {
+div.table-responsive > div.dataTables_wrapper > div.row, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container, .wrap div.table-responsive > div.dataTables_wrapper > div.content {
   margin: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:first-child, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:first-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:first-child {
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:first-child, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:first-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:first-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:first-child {
   padding-left: 0; }
 
-div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:last-child, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:last-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:last-child {
+div.table-responsive > div.dataTables_wrapper > div.row > div[class^="col-"]:last-child, .section .wrap .content aside div.table-responsive > div.dataTables_wrapper > div.wrapper > div[class^="col-"]:last-child, .slider-main .owl-item div.table-responsive > div.dataTables_wrapper > div.item-container > div[class^="col-"]:last-child, .wrap div.table-responsive > div.dataTables_wrapper > div.content > div[class^="col-"]:last-child {
   padding-right: 0; }
 
-@font-face {
-  font-family: 'robotolight';
-  src: url("../fonts/lato/roboto/Roboto-Light.eot");
-  src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype"), url("../fonts/roboto/Roboto-Light.svg#robotolight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
+header.header-primary {
+  padding: 1.25rem 1rem;
+  background: #fff; }
+  header.header-primary .content .searchbox form .input-group {
+    width: 100%; }
+    header.header-primary .content .searchbox form .input-group button {
+      background-color: transparent; }
+      header.header-primary .content .searchbox form .input-group button i {
+        color: #a92d30; }
 
-@font-face {
-  font-family: 'latobold';
-  src: url("../fonts/lato/Lato-Bold.eot");
-  src: url("../fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Bold.woff2") format("woff2"), url("../fonts/lato/Lato-Bold.woff") format("woff"), url("../fonts/lato/Lato-Bold.ttf") format("truetype"), url("../fonts/lato/Lato-Bold.svg#latobold") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'latoregular';
-  src: url("../fonts/lato/Lato-Regular.eot");
-  src: url("../fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../fonts/lato/Lato-Regular.woff") format("woff"), url("../fonts/lato/Lato-Regular.ttf") format("truetype"), url("../fonts/lato/Lato-Regular.svg#latoregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'latolight';
-  src: url("../fonts/lato/Lato-Light.eot");
-  src: url("../fonts/lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Light.woff2") format("woff2"), url("../fonts/lato/Lato-Light.woff") format("woff"), url("../fonts/lato/Lato-Light.ttf") format("truetype"), url("../fonts/lato/Lato-Light.svg#latolight") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-body {
-  font-family: "robotolight", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-smoothing: antialiased; }
-
-.hide {
-  opacity: 0;
-  -webkit-animation-name: fadeOutDown;
-  animation-name: fadeOutDown;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-.show {
-  -webkit-animation-name: fadeInUp;
-  animation-name: fadeInUp;
-  -webkit-animation-iteration-count: 1;
-  animation-iteration-count: 1;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-delay: 0.2s;
-  animation-delay: 0.2s;
-  -webkit-animation-timing-function: ease;
-  animation-timing-function: ease;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-.wrap .content {
-  margin-bottom: 2rem; }
-
-.dataTables_wrapper {
-  padding-left: 0;
-  padding-right: 0; }
-  .dataTables_wrapper .dataTable thead tr th, .dataTables_wrapper .dataTable tfoot tr th {
-    color: #fff; }
-  .dataTables_wrapper .dataTable tbody tr.odd {
-    background-color: #d3eeff; }
-  .dataTables_wrapper .dataTable tbody tr.even {
-    background-color: #edf8ff; }
-  .dataTables_wrapper .dataTable tbody tr td a {
-    color: #0079c2; }
-    .dataTables_wrapper .dataTable tbody tr td a:hover {
-      color: #0089dc; }
-  .dataTables_wrapper .dataTable tbody tr td h4 {
-    font-size: 1.25rem; }
-  .dataTables_wrapper .dataTable tbody tr td p {
-    font-size: 80%; }
-    .dataTables_wrapper .dataTable tbody tr td p:last-child {
-      margin-bottom: 0; }
-  .dataTables_wrapper .dataTable tbody tr td.text-center a {
+nav.navbar-primary {
+  background-color: #fff !important; }
+  nav.navbar-primary .navbar-nav li a {
+    text-transform: uppercase; }
+  nav.navbar-primary .navbar-nav li.active a {
     color: #a92d30; }
-    .dataTables_wrapper .dataTable tbody tr td.text-center a:hover {
-      color: #bd3236; }
+  nav.navbar-primary.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030; }
 
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
-a {
-  color: #a92d30; }
-  a:hover {
-    color: #6d1d1f; }
+.masshead {
+  padding: 4rem 2rem 0;
+  background-color: #f8efe5; }
+  .masshead nav#breadcrumb {
+    margin-top: 2rem; }
+    .masshead nav#breadcrumb ol {
+      padding: 0;
+      background-color: transparent; }
+  .masshead .page-title .page-body h1 {
+    font-family: "latobold", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #a92d30; }
+  .masshead .page-title i {
+    color: #a92d30;
+    font-size: 5rem;
+    text-shadow: 4px 3px 0 #f8efe5, 9px 8px 0 rgba(169, 45, 48, 0.25); }
 
 .section {
   padding: 4rem 0 3rem; }
@@ -12532,7 +12406,7 @@ a {
       .section .wrap .content main .wrapper article .entry-content time {
         font-size: 80%; }
   .section .wrap .content aside .wrapper .widget .entry-content {
-    background-color: #a92d30;
+    background-color: #0079c2;
     padding: 1.25rem; }
     .section .wrap .content aside .wrapper .widget .entry-content strong {
       position: relative;
@@ -12548,6 +12422,10 @@ a {
       font-size: 1.15rem; }
       .section .wrap .content aside .wrapper .widget .entry-content h4 a {
         color: #fff; }
+  .section.newsfeed article a {
+    color: #0079c2; }
+    .section.newsfeed article a:hover {
+      color: #10a5ff; }
   .section.services {
     background-color: #d3eeff; }
     .section.services .wrap .content .page-header {
@@ -12584,6 +12462,9 @@ a {
           display: block; }
   .section.footer {
     background-color: #495057; }
+
+.map {
+  height: 225px; }
 
 .slider-main {
   background-image: url("../images/main_slider__bg.png");
@@ -12653,3 +12534,157 @@ a {
     background: #d66669; }
   .slider-main .owl-dots .owl-dot.active span, .slider-main .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .slider-main .owl-dots a.owl-dot.active span {
     background: #a92d30; }
+
+footer {
+  font-size: 80%; }
+  footer a {
+    color: #dee2e6; }
+    footer a:hover {
+      color: #fff; }
+  footer .footer-pre .segdi address ul {
+    margin-top: 1.75rem; }
+    footer .footer-pre .segdi address ul li i {
+      top: 0.4em;
+      color: #868e96; }
+    footer .footer-pre .segdi address ul li a {
+      padding: 0.15rem 0; }
+  footer .footer-pre .social ul.social-nav li a i {
+    font-size: 1.25rem; }
+  footer .footer-pre .social ul.social-nav li.facebook a:hover {
+    color: #0079c2; }
+  footer .footer-pre .social ul.social-nav li.twitter a:hover {
+    color: #d3eeff; }
+  footer .footer-pre .social ul.social-nav li.linkedin a:hover {
+    color: #0079c2; }
+  footer .footer-pre .social ul.social-nav li.youtube a:hover {
+    color: #a92d30; }
+  footer .footer-post .top {
+    text-align: center; }
+
+@font-face {
+  font-family: 'robotolight';
+  src: url("../fonts/lato/roboto/Roboto-Light.eot");
+  src: url("../fonts/roboto/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto/Roboto-Light.woff") format("woff"), url("../fonts/roboto/Roboto-Light.ttf") format("truetype"), url("../fonts/roboto/Roboto-Light.svg#robotolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'latobold';
+  src: url("../fonts/lato/Lato-Bold.eot");
+  src: url("../fonts/lato/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Bold.woff2") format("woff2"), url("../fonts/lato/Lato-Bold.woff") format("woff"), url("../fonts/lato/Lato-Bold.ttf") format("truetype"), url("../fonts/lato/Lato-Bold.svg#latobold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'latoregular';
+  src: url("../fonts/lato/Lato-Regular.eot");
+  src: url("../fonts/lato/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Regular.woff2") format("woff2"), url("../fonts/lato/Lato-Regular.woff") format("woff"), url("../fonts/lato/Lato-Regular.ttf") format("truetype"), url("../fonts/lato/Lato-Regular.svg#latoregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'latolight';
+  src: url("../fonts/lato/Lato-Light.eot");
+  src: url("../fonts/lato/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/lato/Lato-Light.woff2") format("woff2"), url("../fonts/lato/Lato-Light.woff") format("woff"), url("../fonts/lato/Lato-Light.ttf") format("truetype"), url("../fonts/lato/Lato-Light.svg#latolight") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+body {
+  font-family: "robotolight", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased; }
+
+a {
+  color: #a92d30; }
+  a:hover {
+    color: #6d1d1f; }
+
+.hide {
+  opacity: 0;
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.show {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+.wrap .content {
+  margin-bottom: 2rem; }
+
+.section .page-header {
+  padding-bottom: 1.25rem; }
+  .section .page-header h2 {
+    font-family: "latolight", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    font-size: 2.25rem; }
+    .section .page-header h2 a {
+      color: #adb5bd; }
+      .section .page-header h2 a:hover {
+        color: #495057; }
+
+.dataTables_wrapper {
+  padding-left: 0;
+  padding-right: 0; }
+  .dataTables_wrapper .dataTable thead tr th, .dataTables_wrapper .dataTable tfoot tr th {
+    color: #fff; }
+  .dataTables_wrapper .dataTable tbody tr.odd {
+    background-color: #d3eeff; }
+  .dataTables_wrapper .dataTable tbody tr.even {
+    background-color: #edf8ff; }
+  .dataTables_wrapper .dataTable tbody tr td a {
+    color: #0079c2; }
+    .dataTables_wrapper .dataTable tbody tr td a:hover {
+      color: #0089dc; }
+  .dataTables_wrapper .dataTable tbody tr td h4 {
+    font-size: 1.25rem; }
+  .dataTables_wrapper .dataTable tbody tr td p {
+    font-size: 80%; }
+    .dataTables_wrapper .dataTable tbody tr td p:last-child {
+      margin-bottom: 0; }
+  .dataTables_wrapper .dataTable tbody tr td.text-center a {
+    color: #a92d30; }
+    .dataTables_wrapper .dataTable tbody tr td.text-center a:hover {
+      color: #bd3236; }
+
+.owl-stage-outer {
+  margin-bottom: 20px; }
+
+.owl-dots .owl-dot span {
+  width: 4rem;
+  height: 0.35rem;
+  background: white;
+  -webkit-border-radius: 0;
+          border-radius: 0; }
+
+.owl-dots .owl-dot:hover span {
+  background: #e6e8ea; }
+
+.owl-dots .owl-dot.active span, .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .owl-dots a.owl-dot.active span {
+  background: #adb5bd; }

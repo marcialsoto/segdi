@@ -46,8 +46,8 @@
 }
 
 *{
-	webkit-transition: all 1s ease;
-    transition: all 1s ease;
+	webkit-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 body{
@@ -64,7 +64,6 @@ a{
 }
 
 .ocultar{
-	opacity: 0;
      @include fadeOutDown(
 	    $duration: 1s,
 	    $delay: .2s,
@@ -75,6 +74,24 @@ a{
 
 .mostrar{
      @include fadeInUp(
+	    $duration: 1s,
+	    $delay: .2s,
+	    $function: ease, 
+	    $fill: both
+	  );
+}
+
+.fadeIn{
+	@include fadeIn(
+	    $duration: 1s,
+	    $delay: .2s,
+	    $function: ease, 
+	    $fill: both
+	  );
+}
+
+.fadeOut{
+	@include fadeOut(
 	    $duration: 1s,
 	    $delay: .2s,
 	    $function: ease, 
@@ -93,6 +110,7 @@ a{
 
 	}
 }
+
 .section{
 	.page-header{
 		padding-bottom: 1.25rem;
@@ -112,7 +130,6 @@ a{
 	}
 }
 		
-
 .dataTables_wrapper{
 	padding-left: 0;
 	padding-right: 0;
@@ -195,16 +212,48 @@ a{
 	}
 }
 
-main.blog-main{
+
+main{
+	@extend .col-sm-8;
 	text-align: justify;
+	.fullpage{
+		@extend .col-sm-12;
+	}
 }
 
-aside.blog-sidebar{
+aside{
+	@extend .col-sm-3;
+	@extend .ml-sm-auto; 
 	a{
 		color: $blue;
 		&:hover{
 			color: lighten($blue,15%);
 		}
+	}
+}
+
+.top{
+	position: fixed;
+    bottom: 15px;
+    right: 15px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background-color: $red;
+    border-radius: 36px;
+    vertical-align: middle;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 0.75rem;
+	box-shadow: 0 3px 4px rgba(0,0,0,0.3);
+	padding: 0;
+	line-height: 36px;
+	i{
+		font-size: 1rem;
+	}
+	&:hover{
+		background-color: $white;
+		color: $red;
 	}
 }
 

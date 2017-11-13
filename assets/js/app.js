@@ -116,18 +116,38 @@ $(window).scroll(function() {
 
 var lastScrollTop = 0;
 $(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > 200 && st < lastScrollTop){
+   let st = $(this).scrollTop();
+   let wh = $(this).height();
+   let dh = $(document).height();
+
+   if (st > 200){
     $(".navbar-primary").addClass("fixed-top");
    }else{
        $(".navbar-primary").removeClass("fixed-top");
    }
+
+   if (st > 500){
+    $(".top").removeClass("ocultar");
+    $(".top").addClass("mostrar");
+   }else{
+       $(".top").removeClass("mostrar");
+       $(".top").addClass("ocultar");
+   }
+
    lastScrollTop = st;
-   console.log(st);
+   
+   if( st + wh == dh ) {
+       $(".floating-nav").removeClass("fadeIn");
+       $(".floating-nav").addClass("fadeOut");
+   }else{
+      $(".floating-nav").removeClass("fadeOut");
+      $(".floating-nav").addClass("fadeIn");
+   }
+
 });
 
 // Select all links with hashes
-$('a[href*="#"]')
+$('a[href*="#"].to')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')

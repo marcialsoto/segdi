@@ -1,9 +1,12 @@
 nav{
+	@include font-family('lato','light');
+
 	&.navbar-primary{
 		@extend .navbar;
 		@extend .navbar-expand-md;
 		@extend .navbar-light;
 		@extend .bg-light;
+
 		z-index: $zindex-dropdown;
 		background-color: $white !important;
 		.navbar-nav{
@@ -12,6 +15,9 @@ nav{
 				a{
 					@extend .nav-link;
 					text-transform: uppercase;
+					&:hover{
+						color: lighten($red, 15%);
+					}
 				}
 				&.active{
 					a{
@@ -26,6 +32,68 @@ nav{
 		    right: 0;
 		    left: 0;
 		    z-index: 1030;
+		    background-color: $red !important;
+		    .navbar-nav{
+				li{
+					a{
+						color: lighten($red, 35%);
+						&:hover{
+							color: lighten($red, 75%);
+						}
+					}
+					&.active{
+						a{
+							color: $white !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	&.floating-nav{
+		position: fixed;
+		top: 50%;
+		right: 0;
+		transform: translate(-15px,-50%);
+		a{
+			background-color: transparent;
+			border: 1px solid $red; 
+			color: $white;
+			height: 36px;
+		    width: 36px;
+		    padding: 0;
+		    margin-bottom: 0.5rem;
+		    border-radius: 36px;
+		    text-align: center;
+		    line-height: 36px;
+		    i{
+		    	color: $red;
+		    }
+		    &:hover{
+		    	background-color: $red;
+		    	i{
+		    		color: $white;
+		    	}
+		    }
+		    &.fb{
+		    	&:hover{
+					background-color: $blue-fb;
+					border: 1px solid $blue-fb;
+		    	}
+		    }
+		    &.tw{
+		    	&:hover{
+					background-color: $sky-blue-tw;
+					border: 1px solid $sky-blue-tw;
+		    	}
+		    }
+		    &.li{
+		    	&:hover{
+					background-color: $blue-li;
+					border: 1px solid $blue-li;
+		    	}
+		    }
 		}
 	}
 }
@@ -34,8 +102,12 @@ nav{
 	border-radius: 0;
 	a{
 		font-size: 0.75rem;
+		color: $gray-700 !important;
 		padding-left: 0.5rem !important;
 		padding-right: 0.5rem !important;
+		&:hover{
+			color: $red !important;
+		}
 		&.active{
 			color: $white !important;
 			background-color: $red;

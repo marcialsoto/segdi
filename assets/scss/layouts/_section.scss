@@ -5,91 +5,89 @@
 	padding: 4rem 0 3rem;
 	.wrap{
 		.content{
-			main{
-				@extend .col-sm-9;
-				.wrapper{
-					@extend .card-deck;
-					.page-header{
-						@extend .col-sm-12;
-						@include media-breakpoint-down(xs) {
-			            	padding-left: 0;
-			            	padding-right: 0;
-			            }
-					}
-					article{
-						@extend .card;
-						border: 0 none;
-        				border-radius: 0;
-        				.entry-content{
-        					@extend .card-body;
-          					padding: 0.5rem 0 1.25rem;
-          					h4{
-					            @extend .card-title;
-					            @include media-breakpoint-down(xs) {
-					            	font-size: 1rem;
-					            }
-					            font-size: 1.15rem;
-					            margin-bottom: 0.15rem;
-					        }
-							time{
-								@extend .card-text;
-								@extend .text-muted;
-								font-size: 80%;
-					        }
-        				}
-					}
-				}
-			}
-			aside{
-				@extend .col-sm-3;
-					.wrapper{
-						@extend .row;
-						.page-header{
-							@extend .col-sm-12;
-						}
-						.widget{
-							@extend .col-sm-12;
-						
-							.entry-content{
-								background-color: $blue;
-								padding: 1.25rem;
-								strong{
-									position: relative;
-									display: block;
-									font-weight: normal;
-									color: $white;
-									font-size: 3rem;
-								}
-								time{
-									color: $white;
-									font-size: 80%;
-									line-height: 1;
-								}
-								h4{
-									@include media-breakpoint-down(xs) {
-						            	font-size: 1rem;
-						            }
-									font-size: 1.15rem;
-									a{
-										color: $white;
-									}
-								}
-							}
-						}
-					}
-				
-			}
 		}
 	}
 
 	&.newsfeed{
-		article{
-			a{
-				color: $blue;
-				&:hover{
-					color: lighten($blue,15%);
+		.news{
+			@extend .col-sm-9;
+			.wrapper{
+				@extend .card-deck;
+				.page-header{
+					@extend .col-sm-12;
+					@include media-breakpoint-down(xs) {
+		            	padding-left: 0;
+		            	padding-right: 0;
+		            }
+				}
+				article{
+					@extend .card;
+					border: 0 none;
+    				border-radius: 0;
+    				.entry-content{
+    					@extend .card-body;
+      					padding: 0.5rem 0 1.25rem;
+      					h4{
+				            @extend .card-title;
+				            a{
+				            	color: $blue;
+								&:hover{
+									color: lighten($blue,15%);
+								}
+				            }
+				            @include media-breakpoint-down(xs) {
+				            	font-size: 1rem;
+				            }
+				            font-size: 1.15rem;
+				            margin-bottom: 0.15rem;
+				        }
+						time{
+							@extend .card-text;
+							@extend .text-muted;
+							font-size: 80%;
+				        }
+    				}
 				}
 			}
+		}
+		.events{
+			@extend .col-sm-3;
+				.wrapper{
+					@extend .row;
+					.page-header{
+						@extend .col-sm-12;
+					}
+					.widget{
+						@extend .col-sm-12;
+					
+						.entry-content{
+							background-color: $blue;
+							padding: 1.25rem;
+							strong{
+								position: relative;
+								display: block;
+								font-weight: normal;
+								color: $white;
+								font-size: 3rem;
+							}
+							time{
+								color: $white;
+								font-size: 80%;
+								line-height: 1;
+							}
+							h4{
+								@include media-breakpoint-down(xs) {
+					            	font-size: 1rem;
+					            }
+								font-size: 1.15rem;
+								a{
+									color: $white;
+								}
+							}
+						}
+					}
+				}
+			
 		}
 	}
 	

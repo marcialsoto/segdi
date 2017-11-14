@@ -52,6 +52,13 @@
 
 body{
 	@include font-family();
+	top: 0 !important;
+}
+
+.skiptranslate{
+	.goog-te-banner-frame{
+		display: none;
+	}	
 }
 
 a{

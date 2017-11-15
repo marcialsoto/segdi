@@ -51,19 +51,15 @@ nav{
 		}
 	}
 
-	&.floating-nav{
-		position: fixed;
-		top: 50%;
-		right: 0;
-		transform: translate(-15px,-50%);
+	&.social-nav{
 		a{
+			@extend .nav-link;
 			background-color: transparent;
 			border: 1px solid $red; 
-			color: $white;
+			color: inherit;
 			height: 36px;
 		    width: 36px;
 		    padding: 0;
-		    margin-bottom: 0.5rem;
 		    border-radius: 36px;
 		    text-align: center;
 		    line-height: 36px;
@@ -92,6 +88,62 @@ nav{
 		    	&:hover{
 					background-color: $blue-li;
 					border: 1px solid $blue-li;
+		    	}
+		    }
+		    &.yt{
+		    	&:hover{
+					background-color: $red-yt;
+					border: 1px solid $red-yt;
+		    	}
+		    }
+		}
+	}
+
+	&.floating-nav{
+		position: fixed;
+		top: 50%;
+		right: 0;
+		transform: translate(-15px,-50%);
+		a{
+		    margin-bottom: 0.5rem;
+		}
+	}
+
+	&.sharing-nav{
+		@extend .nav;
+		a{
+			@include font-family('lato','light');
+			text-transform: uppercase;
+			width: auto !important;
+			margin-right: 0.5rem;
+			padding: 0 1rem;
+			font-size: 0.85rem;
+			border-radius: 0;
+			background-color: $gray-600;
+			border: 1px solid $gray-600;
+			color: $white;
+			i{
+				padding-right: 0.5rem;
+				color: $white;
+			}
+			&:hover{
+				background-color: darken($gray-600, 10%);
+				border: 1px solid darken($gray-600, 10%);
+			}
+			&.fb{
+				background-color: $blue-fb;
+				border: 1px solid $blue-fb;
+		    	&:hover{
+					background-color: darken($blue-fb,10%);
+					border: 1px solid darken($blue-fb,10%);
+		    	}
+		    }
+		    &.tw{
+		    		background-color: $sky-blue-tw;
+					border: 1px solid $sky-blue-tw;
+		    	&:hover{
+					background-color: darken($sky-blue-tw,10%);
+					border: 1px solid darken($sky-blue-tw,10%);
 		    	}
 		    }
 		}

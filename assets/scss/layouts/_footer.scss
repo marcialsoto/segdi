@@ -1,5 +1,6 @@
 footer{
-	padding: 1.25rem 0 3rem !important;
+	background-color: $gray-900;
+	padding: 0 0 15px !important;
 	font-size: 80%;
 	a{
 		color: $gray-300;
@@ -11,6 +12,7 @@ footer{
 	.footer-pre{
 		@extend .align-items-center;
 		margin-bottom: 0 !important;
+	    padding: 2rem 0;
 		.segdi{
 			@extend .col-sm-8;
 			@extend .mr-auto;
@@ -82,24 +84,69 @@ footer{
 	}
 
 	.footer-post{
-		@extend .align-items-center;
+		@extend .align-items-start;
+		/* border-top: 1px solid #404040;
+	    border-bottom: 1px solid #404040;
+	    */
+	    padding: 2rem 0;
+	    margin-bottom: 1rem !important;
 		nav{
 			
 			a{
 			    padding: 0.25rem 0;
 			}
 		}
-		.address{
-			@extend .col-sm-8;
-			address{
-			}
-		}
 		.nav-links{
 			@extend .col-sm-2;
 			@include media-breakpoint-down(xs) {
-				text-align: initial !important;
 			}
-			text-align: right;
+			h2{
+				@include font-family('lato','bold')
+				font-size: 0.85rem;
+			    margin: 0 0 14px;
+			    color: $white;
+			    text-transform: uppercase;
+			}
+			ul{
+				@extend .nav;
+				@extend .flex-column;
+				li{
+					@extend .nav-item;
+					i{
+						color: $gray-300;
+						top: 0.7em;
+					}
+					a{
+						@extend .nav-link;
+						padding: 0.25rem 0;
+					}
+				}
+			}
+			&.nav-contact{
+				@extend .col-sm-6;
+			}
+		}
+	}
+
+	.footer-copy{
+		@extend .align-items-center;
+		margin-bottom: 0 !important;
+		.copy{
+			@extend .col-sm-8;
+			@extend .mr-auto;
+
+		}
+		.social-nav{
+			@extend .col-sm-4;
+			@extend .nav;
+			@extend .justify-content-end;
+			a{
+				border: 1px solid $gray-300;
+				margin-left: 0.5rem;
+				i{
+					color: $gray-300;
+				}
+			}
 		}
 	}
 }

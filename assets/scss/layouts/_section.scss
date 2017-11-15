@@ -20,34 +20,7 @@
 		            	padding-right: 0;
 		            }
 				}
-				article{
-					@extend .card;
-					border: 0 none;
-    				border-radius: 0;
-    				.entry-content{
-    					@extend .card-body;
-      					padding: 0.5rem 0 1.25rem;
-      					h4{
-				            @extend .card-title;
-				            a{
-				            	color: $blue;
-								&:hover{
-									color: lighten($blue,15%);
-								}
-				            }
-				            @include media-breakpoint-down(xs) {
-				            	font-size: 1rem;
-				            }
-				            font-size: 1.15rem;
-				            margin-bottom: 0.15rem;
-				        }
-						time{
-							@extend .card-text;
-							@extend .text-muted;
-							font-size: 80%;
-				        }
-    				}
-				}
+
 			}
 		}
 		.events{

@@ -123,12 +123,17 @@ nav{
 			border: 1px solid $gray-600;
 			color: $white;
 			i{
-				padding-right: 0.5rem;
+				
 				color: $white;
+			}
+			span{
+				padding-left: 0.5rem;
 			}
 			&:hover{
 				background-color: darken($gray-600, 10%);
 				border: 1px solid darken($gray-600, 10%);
+				span{
+				}
 			}
 			&.fb{
 				background-color: $blue-fb;
@@ -147,6 +152,10 @@ nav{
 		    	}
 		    }
 		}
+	}
+
+	&.paginate{
+		display: block;
 	}
 }
 

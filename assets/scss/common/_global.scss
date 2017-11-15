@@ -187,6 +187,19 @@ a{
 							}
 						}
 					}
+					ul{
+						li{
+							font-size: .85rem;
+						}
+					}
+				}
+				&.table-danger{
+					a{
+						color: $red;
+						&:hover{
+							color: darken($red,15%);
+						}
+					}
 				}
 			}
 		}
@@ -264,7 +277,37 @@ aside{
 	}
 }
 
-
+article{
+	@extend .card;
+	border: 0 none;
+	border-radius: 0;
+	img{
+		@extend .img-fluid;
+	}
+	.entry-content{
+		@extend .card-body;
+			padding: 0.5rem 0 1.25rem;
+			h4{
+            @extend .card-title;
+            a{
+            	color: $blue;
+				&:hover{
+					color: lighten($blue,15%);
+				}
+            }
+            @include media-breakpoint-down(xs) {
+            	font-size: 1rem;
+            }
+            font-size: 1.15rem;
+            margin-bottom: 0.15rem;
+        }
+		time{
+			@extend .card-text;
+			@extend .text-muted;
+			font-size: 80%;
+        }
+	}
+}
 
 // Responsive min-width
 @include media-breakpoint-up(xs) {

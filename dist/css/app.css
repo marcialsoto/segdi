@@ -416,7 +416,7 @@ mark,
   .blockquote-footer::before {
     content: "\2014 \00A0"; }
 
-.img-fluid {
+.img-fluid, article img {
   max-width: 100%;
   height: auto; }
 
@@ -538,7 +538,7 @@ pre {
     padding-left: 0; }
 
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .slider-main .owl-item .item-container .slider-content, .slider-main .owl-item .item-container .slider-image,
-.col-auto, .masshead nav#breadcrumb, .col-sm-1, .col-sm-2, footer .footer-post .nav-links, .col-sm-3, header.header-primary .content .contact, .section.newsfeed .events, aside, .col-sm-4, header.header-primary .content .searchbox, footer .footer-pre .translate, footer .footer-copy .social-nav, .col-sm-5, header.header-primary .content .logo, .col-sm-6, footer .footer-post .nav-links.nav-contact, .col-sm-7, .col-sm-8, footer .footer-pre .segdi, footer .footer-copy .copy, main, .col-sm-9, .section.newsfeed .news, .col-sm-10, .col-sm-11, .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, main .fullpage, .col-sm,
+.col-auto, .masshead nav#breadcrumb, .col-sm-1, .col-sm-2, .footer .footer-post .nav-links, .col-sm-3, header.header-primary .content .contact, .section.newsfeed .events, .page .fullpage article, aside, .col-sm-4, header.header-primary .content .searchbox, .footer .footer-pre .translate, .footer .footer-copy .social-nav, .col-sm-5, header.header-primary .content .logo, .col-sm-6, .footer .footer-post .nav-links.nav-contact, .col-sm-7, .col-sm-8, .footer .footer-pre .segdi, .footer .footer-copy .copy, main, .col-sm-9, .section.newsfeed .news, .col-sm-10, .col-sm-11, .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, .page .fullpage, .page .fullpage article:first-child, main .fullpage, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
 .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg,
 .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl,
@@ -746,19 +746,19 @@ pre {
         -ms-flex: 0 0 8.33333%;
             flex: 0 0 8.33333%;
     max-width: 8.33333%; }
-  .col-sm-2, footer .footer-post .nav-links {
+  .col-sm-2, .footer .footer-post .nav-links {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 16.66667%;
         -ms-flex: 0 0 16.66667%;
             flex: 0 0 16.66667%;
     max-width: 16.66667%; }
-  .col-sm-3, header.header-primary .content .contact, .section.newsfeed .events, aside {
+  .col-sm-3, header.header-primary .content .contact, .section.newsfeed .events, .page .fullpage article, aside {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 25%;
         -ms-flex: 0 0 25%;
             flex: 0 0 25%;
     max-width: 25%; }
-  .col-sm-4, header.header-primary .content .searchbox, footer .footer-pre .translate, footer .footer-copy .social-nav {
+  .col-sm-4, header.header-primary .content .searchbox, .footer .footer-pre .translate, .footer .footer-copy .social-nav {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 33.33333%;
         -ms-flex: 0 0 33.33333%;
@@ -770,7 +770,7 @@ pre {
         -ms-flex: 0 0 41.66667%;
             flex: 0 0 41.66667%;
     max-width: 41.66667%; }
-  .col-sm-6, footer .footer-post .nav-links.nav-contact {
+  .col-sm-6, .footer .footer-post .nav-links.nav-contact {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 50%;
         -ms-flex: 0 0 50%;
@@ -782,7 +782,7 @@ pre {
         -ms-flex: 0 0 58.33333%;
             flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  .col-sm-8, footer .footer-pre .segdi, footer .footer-copy .copy, main {
+  .col-sm-8, .footer .footer-pre .segdi, .footer .footer-copy .copy, main {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 66.66667%;
         -ms-flex: 0 0 66.66667%;
@@ -806,7 +806,7 @@ pre {
         -ms-flex: 0 0 91.66667%;
             flex: 0 0 91.66667%;
     max-width: 91.66667%; }
-  .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, main .fullpage {
+  .col-sm-12, .masshead .page-title, .section.newsfeed .news .wrapper .page-header, .section.newsfeed .events .wrapper .page-header, .section.newsfeed .events .wrapper .widget, .section.services .wrap .content .page-header, .section.services .wrap .content .service, .page .fullpage, .page .fullpage article:first-child, main .fullpage {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 100%;
         -ms-flex: 0 0 100%;
@@ -2914,7 +2914,7 @@ tbody.collapse.show {
   .custom-file-control:lang(en)::before {
     content: "Browse"; }
 
-.nav, header.header-primary .content .contact nav, nav.sharing-nav, footer .footer-post .nav-links ul, footer .footer-copy .social-nav {
+.nav, header.header-primary .content .contact nav, nav.sharing-nav, .footer .footer-post .nav-links ul, .footer .footer-copy .social-nav {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2926,37 +2926,37 @@ tbody.collapse.show {
   margin-bottom: 0;
   list-style: none; }
 
-.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, nav.social-nav a, .section.services .wrap .content .service ul li a, footer .footer-post .nav-links ul li a {
+.nav-link, header.header-primary .content .contact nav a, nav.navbar-primary .navbar-nav li a, nav.social-nav a, .section.services .wrap .content .service ul li a, .footer .footer-post .nav-links ul li a {
   display: block;
   padding: 0.5rem 1rem; }
-  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, nav.social-nav a:focus, .section.services .wrap .content .service ul li a:focus, footer .footer-post .nav-links ul li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, nav.social-nav a:hover, .section.services .wrap .content .service ul li a:hover, footer .footer-post .nav-links ul li a:hover {
+  .nav-link:focus, header.header-primary .content .contact nav a:focus, nav.navbar-primary .navbar-nav li a:focus, nav.social-nav a:focus, .section.services .wrap .content .service ul li a:focus, .footer .footer-post .nav-links ul li a:focus, .nav-link:hover, header.header-primary .content .contact nav a:hover, nav.navbar-primary .navbar-nav li a:hover, nav.social-nav a:hover, .section.services .wrap .content .service ul li a:hover, .footer .footer-post .nav-links ul li a:hover {
     text-decoration: none; }
-  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, nav.social-nav a.disabled, .section.services .wrap .content .service ul li a.disabled, footer .footer-post .nav-links ul li a.disabled {
+  .nav-link.disabled, header.header-primary .content .contact nav a.disabled, nav.navbar-primary .navbar-nav li a.disabled, nav.social-nav a.disabled, .section.services .wrap .content .service ul li a.disabled, .footer .footer-post .nav-links ul li a.disabled {
     color: #868e96; }
 
 .nav-tabs {
   border-bottom: 1px solid #ddd; }
-  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-tabs li, .nav-tabs footer .footer-post .nav-links ul li, footer .footer-post .nav-links ul .nav-tabs li {
+  .nav-tabs .nav-item, .nav-tabs nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-tabs li, .nav-tabs .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-tabs li, .nav-tabs .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-tabs li {
     margin-bottom: -1px; }
-  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs nav.social-nav a, nav.social-nav .nav-tabs a, .nav-tabs .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-tabs a, .nav-tabs footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .nav-tabs a {
+  .nav-tabs .nav-link, .nav-tabs header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-tabs a, .nav-tabs nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-tabs a, .nav-tabs nav.social-nav a, nav.social-nav .nav-tabs a, .nav-tabs .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-tabs a, .nav-tabs .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-tabs a {
     border: 1px solid transparent;
     -webkit-border-top-left-radius: 0.25rem;
             border-top-left-radius: 0.25rem;
     -webkit-border-top-right-radius: 0.25rem;
             border-top-right-radius: 0.25rem; }
-    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs nav.social-nav a:focus, nav.social-nav .nav-tabs a:focus, .nav-tabs .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .nav-tabs a:focus, .nav-tabs footer .footer-post .nav-links ul li a:focus, footer .footer-post .nav-links ul li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs nav.social-nav a:hover, nav.social-nav .nav-tabs a:hover, .nav-tabs .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .nav-tabs a:hover, .nav-tabs footer .footer-post .nav-links ul li a:hover, footer .footer-post .nav-links ul li .nav-tabs a:hover {
+    .nav-tabs .nav-link:focus, .nav-tabs header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .nav-tabs a:focus, .nav-tabs nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li .nav-tabs a:focus, .nav-tabs nav.social-nav a:focus, nav.social-nav .nav-tabs a:focus, .nav-tabs .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .nav-tabs a:focus, .nav-tabs .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .nav-tabs a:focus, .nav-tabs .nav-link:hover, .nav-tabs header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .nav-tabs a:hover, .nav-tabs nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li .nav-tabs a:hover, .nav-tabs nav.social-nav a:hover, nav.social-nav .nav-tabs a:hover, .nav-tabs .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .nav-tabs a:hover, .nav-tabs .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .nav-tabs a:hover {
       border-color: #e9ecef #e9ecef #ddd; }
-    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs nav.social-nav a.disabled, nav.social-nav .nav-tabs a.disabled, .nav-tabs .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .nav-tabs a.disabled, .nav-tabs footer .footer-post .nav-links ul li a.disabled, footer .footer-post .nav-links ul li .nav-tabs a.disabled {
+    .nav-tabs .nav-link.disabled, .nav-tabs header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .nav-tabs a.disabled, .nav-tabs nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li .nav-tabs a.disabled, .nav-tabs nav.social-nav a.disabled, nav.social-nav .nav-tabs a.disabled, .nav-tabs .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .nav-tabs a.disabled, .nav-tabs .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .nav-tabs a.disabled {
       color: #868e96;
       background-color: transparent;
       border-color: transparent; }
-  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs nav.social-nav a.active, nav.social-nav .nav-tabs a.active, .nav-tabs .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-tabs a.active, .nav-tabs footer .footer-post .nav-links ul li a.active, footer .footer-post .nav-links ul li .nav-tabs a.active,
+  .nav-tabs .nav-link.active, .nav-tabs header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-tabs a.active, .nav-tabs nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-tabs a.active, .nav-tabs nav.social-nav a.active, nav.social-nav .nav-tabs a.active, .nav-tabs .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-tabs a.active, .nav-tabs .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-tabs a.active,
   .nav-tabs .nav-item.show .nav-link,
   .nav-tabs nav.navbar-primary .navbar-nav li.show .nav-link, nav.navbar-primary .navbar-nav
   .nav-tabs li.show .nav-link,
   .nav-tabs .section.services .wrap .content .service ul li.show .nav-link, .section.services .wrap .content .service ul
   .nav-tabs li.show .nav-link,
-  .nav-tabs footer .footer-post .nav-links ul li.show .nav-link, footer .footer-post .nav-links ul
+  .nav-tabs .footer .footer-post .nav-links ul li.show .nav-link, .footer .footer-post .nav-links ul
   .nav-tabs li.show .nav-link,
   .nav-tabs .nav-item.show header.header-primary .content .contact nav a, header.header-primary .content .contact nav
   .nav-tabs .nav-item.show a,
@@ -2969,11 +2969,10 @@ tbody.collapse.show {
   .nav-tabs .nav-item.show .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
   .nav-tabs .nav-item.show a,
   .nav-tabs .section.services .wrap .content .service ul li.show a, .section.services .wrap .content .service ul
-  .nav-tabs li.show a, .section.services .wrap .content .service
-  .nav-tabs footer .footer-post .nav-links ul li.show a,
-  .nav-tabs .nav-item.show footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li
+  .nav-tabs li.show a,
+  .nav-tabs .nav-item.show .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li
   .nav-tabs .nav-item.show a,
-  .nav-tabs footer .footer-post .nav-links ul li.show a, footer .footer-post .nav-links ul
+  .nav-tabs .footer .footer-post .nav-links ul li.show a, .footer .footer-post .nav-links ul
   .nav-tabs li.show a {
     color: #495057;
     background-color: #fff;
@@ -2985,10 +2984,10 @@ tbody.collapse.show {
     -webkit-border-top-right-radius: 0;
             border-top-right-radius: 0; }
 
-.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills nav.social-nav a, nav.social-nav .nav-pills a, .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-pills a, .nav-pills footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .nav-pills a {
+.nav-pills .nav-link, .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav .nav-pills a, .nav-pills nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-nav li .nav-pills a, .nav-pills nav.social-nav a, nav.social-nav .nav-pills a, .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .nav-pills a, .nav-pills .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .nav-pills a {
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
-  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills nav.social-nav a.active, nav.social-nav .nav-pills a.active, .nav-pills .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-pills a.active, .nav-pills footer .footer-post .nav-links ul li a.active, footer .footer-post .nav-links ul li .nav-pills a.active,
+  .nav-pills .nav-link.active, .nav-pills header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav .nav-pills a.active, .nav-pills nav.navbar-primary .navbar-nav li a.active, nav.navbar-primary .navbar-nav li .nav-pills a.active, .nav-pills nav.social-nav a.active, nav.social-nav .nav-pills a.active, .nav-pills .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li .nav-pills a.active, .nav-pills .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li .nav-pills a.active,
   .show > .nav-pills .nav-link,
   .show > .nav-pills header.header-primary .content .contact nav a, header.header-primary .content .contact nav
   .show > .nav-pills a,
@@ -2998,19 +2997,19 @@ tbody.collapse.show {
   .show > .nav-pills a,
   .show > .nav-pills .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li
   .show > .nav-pills a,
-  .show > .nav-pills footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li
+  .show > .nav-pills .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li
   .show > .nav-pills a {
     color: #fff;
     background-color: #007bff; }
 
-.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-fill li, .nav-fill footer .footer-post .nav-links ul li, footer .footer-post .nav-links ul .nav-fill li {
+.nav-fill .nav-item, .nav-fill nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-fill li, .nav-fill .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-fill li, .nav-fill .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-fill li {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   text-align: center; }
 
-.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-justified li, .nav-justified footer .footer-post .nav-links ul li, footer .footer-post .nav-links ul .nav-justified li {
+.nav-justified .nav-item, .nav-justified nav.navbar-primary .navbar-nav li, nav.navbar-primary .navbar-nav .nav-justified li, .nav-justified .section.services .wrap .content .service ul li, .section.services .wrap .content .service ul .nav-justified li, .nav-justified .footer .footer-post .nav-links ul li, .footer .footer-post .nav-links ul .nav-justified li {
   -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
           flex-basis: 0;
@@ -3086,7 +3085,7 @@ tbody.collapse.show {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none; }
-  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav nav.social-nav a, nav.social-nav .navbar-nav a, .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-nav a, .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-nav a {
+  .navbar-nav .nav-link, .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-nav a, nav.navbar-primary .navbar-nav li a, .navbar-nav nav.social-nav a, nav.social-nav .navbar-nav a, .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-nav a, .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-nav a {
     padding-right: 0;
     padding-left: 0; }
   .navbar-nav .dropdown-menu {
@@ -3159,7 +3158,7 @@ tbody.collapse.show {
       .navbar-expand-sm .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-expand-sm .navbar-nav a {
+      .navbar-expand-sm .navbar-nav .nav-link, .navbar-expand-sm .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-sm .navbar-nav li a, .navbar-expand-sm .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-sm .navbar-nav a, .navbar-expand-sm .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-sm .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-sm > .container, .navbar-expand-sm > .wrap,
@@ -3206,7 +3205,7 @@ tbody.collapse.show {
       .navbar-expand-md .navbar-nav .dropdown-menu-right, nav.navbar-primary .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
+      .navbar-expand-md .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-expand-md .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-md .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-expand-md nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-md .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-expand-md .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-expand-md .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-md .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-md > .container, nav.navbar-primary > .container, .navbar-expand-md > .wrap, nav.navbar-primary > .wrap,
@@ -3253,7 +3252,7 @@ tbody.collapse.show {
       .navbar-expand-lg .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-expand-lg .navbar-nav a {
+      .navbar-expand-lg .navbar-nav .nav-link, .navbar-expand-lg .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-lg .navbar-nav li a, .navbar-expand-lg .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-lg .navbar-nav a, .navbar-expand-lg .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-lg .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-lg > .container, .navbar-expand-lg > .wrap,
@@ -3300,7 +3299,7 @@ tbody.collapse.show {
       .navbar-expand-xl .navbar-nav .dropdown-menu-right {
         right: 0;
         left: auto; }
-      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-expand-xl .navbar-nav a {
+      .navbar-expand-xl .navbar-nav .nav-link, .navbar-expand-xl .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand-xl .navbar-nav li a, .navbar-expand-xl .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand-xl .navbar-nav a, .navbar-expand-xl .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand-xl .navbar-nav a {
         padding-right: .5rem;
         padding-left: .5rem; }
     .navbar-expand-xl > .container, .navbar-expand-xl > .wrap,
@@ -3344,7 +3343,7 @@ tbody.collapse.show {
     .navbar-expand .navbar-nav .dropdown-menu-right {
       right: 0;
       left: auto; }
-    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-expand .navbar-nav a {
+    .navbar-expand .navbar-nav .nav-link, .navbar-expand .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-expand .navbar-nav a, .navbar-expand nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-expand .navbar-nav li a, .navbar-expand .navbar-nav nav.social-nav a, nav.social-nav .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-expand .navbar-nav a, .navbar-expand .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-expand .navbar-nav a {
       padding-right: .5rem;
       padding-left: .5rem; }
   .navbar-expand > .container, .navbar-expand > .wrap,
@@ -3365,14 +3364,14 @@ tbody.collapse.show {
   .navbar-light .navbar-brand:focus, nav.navbar-primary .navbar-brand:focus, .navbar-light .navbar-brand:hover, nav.navbar-primary .navbar-brand:hover {
     color: rgba(0, 0, 0, 0.9); }
 
-.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav nav.social-nav a, nav.social-nav .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
+.navbar-light .navbar-nav .nav-link, nav.navbar-primary .navbar-nav .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-light .navbar-nav a, header.header-primary .content .contact nav.navbar-primary .navbar-nav a, .navbar-light nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-light .navbar-nav li a, nav.navbar-primary .navbar-nav li a, .navbar-light .navbar-nav nav.social-nav a, nav.social-nav .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav nav.social-nav a, nav.social-nav nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a {
   color: rgba(0, 0, 0, 0.5); }
-  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav nav.social-nav a:focus, nav.social-nav nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav footer .footer-post .nav-links ul li a:focus, footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a:focus, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav nav.social-nav a:hover, nav.social-nav nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav footer .footer-post .nav-links ul li a:hover, footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a:hover, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:hover {
+  .navbar-light .navbar-nav .nav-link:focus, nav.navbar-primary .navbar-nav .nav-link:focus, .navbar-light .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-light .navbar-nav a:focus, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:focus, .navbar-light nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-light .navbar-nav li a:focus, nav.navbar-primary .navbar-nav li a:focus, .navbar-light .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav nav.social-nav a:focus, nav.social-nav nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:focus, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:focus, .navbar-light .navbar-nav .nav-link:hover, nav.navbar-primary .navbar-nav .nav-link:hover, .navbar-light .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-light .navbar-nav a:hover, header.header-primary .content .contact nav.navbar-primary .navbar-nav a:hover, .navbar-light nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-light .navbar-nav li a:hover, nav.navbar-primary .navbar-nav li a:hover, .navbar-light .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav nav.social-nav a:hover, nav.social-nav nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a:hover, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a:hover, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a:hover {
     color: rgba(0, 0, 0, 0.7); }
-  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav nav.social-nav a.disabled, nav.social-nav nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav footer .footer-post .nav-links ul li a.disabled, footer .footer-post .nav-links ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a.disabled, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.disabled {
+  .navbar-light .navbar-nav .nav-link.disabled, nav.navbar-primary .navbar-nav .nav-link.disabled, .navbar-light .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-light .navbar-nav a.disabled, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.disabled, .navbar-light nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-light .navbar-nav li a.disabled, nav.navbar-primary .navbar-nav li a.disabled, .navbar-light .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav nav.social-nav a.disabled, nav.social-nav nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.disabled, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav a.disabled, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.disabled {
     color: rgba(0, 0, 0, 0.3); }
 
-.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav nav.social-nav .show > a, nav.social-nav nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav footer .footer-post .nav-links ul li .show > a, footer .footer-post .nav-links ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li .show > a, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .show > a,
+.navbar-light .navbar-nav .show > .nav-link, nav.navbar-primary .navbar-nav .show > .nav-link, .navbar-light .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-light .navbar-nav .show > a, header.header-primary .content .contact nav.navbar-primary .navbar-nav .show > a, .navbar-light nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-light .navbar-nav li .show > a, nav.navbar-primary .navbar-nav li .show > a, .navbar-light .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav nav.social-nav .show > a, nav.social-nav nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .show > a, .navbar-light .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-light .navbar-nav .show > a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .show > a,
 .navbar-light .navbar-nav .active > .nav-link, nav.navbar-primary .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav a.active > .nav-link, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active > .nav-link,
@@ -3390,8 +3389,8 @@ tbody.collapse.show {
 .navbar-light .navbar-nav nav.social-nav a.active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li nav.social-nav a.active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav nav.social-nav a.active > a,
 .navbar-light .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav .active > a,
-.navbar-light .navbar-nav footer .footer-post .nav-links ul li .active > a, footer .footer-post .nav-links ul li
-.navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li .active > a, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .active > a,
+.navbar-light .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li
+.navbar-light .navbar-nav .active > a, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav .active > a,
 .navbar-light .navbar-nav .nav-link.show, nav.navbar-primary .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav header.header-primary .content .contact nav a.show, header.header-primary .content .contact nav
 .navbar-light .navbar-nav a.show, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.show,
@@ -3401,8 +3400,8 @@ tbody.collapse.show {
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav nav.social-nav a.show, nav.social-nav nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.show,
-.navbar-light .navbar-nav footer .footer-post .nav-links ul li a.show, footer .footer-post .nav-links ul li
-.navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a.show, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.show,
+.navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li
+.navbar-light .navbar-nav a.show, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.show,
 .navbar-light .navbar-nav .nav-link.active, nav.navbar-primary .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav
 .navbar-light .navbar-nav a.active, header.header-primary .content .contact nav.navbar-primary .navbar-nav a.active,
@@ -3412,8 +3411,8 @@ tbody.collapse.show {
 .navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav nav.social-nav a.active, nav.social-nav nav.navbar-primary .navbar-nav a.active,
 .navbar-light .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
 .navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li nav.navbar-primary .navbar-nav a.active,
-.navbar-light .navbar-nav footer .footer-post .nav-links ul li a.active, footer .footer-post .nav-links ul li
-.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav footer .footer-post .nav-links ul li a.active, footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.active {
+.navbar-light .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li
+.navbar-light .navbar-nav a.active, nav.navbar-primary .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li nav.navbar-primary .navbar-nav a.active {
   color: rgba(0, 0, 0, 0.9); }
 
 .navbar-light .navbar-toggler, nav.navbar-primary .navbar-toggler {
@@ -3431,14 +3430,14 @@ tbody.collapse.show {
   .navbar-dark .navbar-brand:focus, .navbar-dark .navbar-brand:hover {
     color: white; }
 
-.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav nav.social-nav a, nav.social-nav .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav footer .footer-post .nav-links ul li a, footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a {
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav a, header.header-primary .content .contact nav .navbar-dark .navbar-nav a, .navbar-dark nav.navbar-primary .navbar-nav li a, nav.navbar-primary .navbar-dark .navbar-nav li a, .navbar-dark .navbar-nav nav.social-nav a, nav.social-nav .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a {
   color: rgba(255, 255, 255, 0.5); }
-  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav footer .footer-post .nav-links ul li a:focus, footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav footer .footer-post .nav-links ul li a:hover, footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:hover {
+  .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:focus, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:focus, .navbar-dark nav.navbar-primary .navbar-nav li a:focus, nav.navbar-primary .navbar-dark .navbar-nav li a:focus, .navbar-dark .navbar-nav nav.social-nav a:focus, nav.social-nav .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:focus, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:focus, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:focus, .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav header.header-primary .content .contact nav a:hover, header.header-primary .content .contact nav .navbar-dark .navbar-nav a:hover, .navbar-dark nav.navbar-primary .navbar-nav li a:hover, nav.navbar-primary .navbar-dark .navbar-nav li a:hover, .navbar-dark .navbar-nav nav.social-nav a:hover, nav.social-nav .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a:hover, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a:hover, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a:hover, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a:hover {
     color: rgba(255, 255, 255, 0.75); }
-  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav footer .footer-post .nav-links ul li a.disabled, footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a.disabled {
+  .navbar-dark .navbar-nav .nav-link.disabled, .navbar-dark .navbar-nav header.header-primary .content .contact nav a.disabled, header.header-primary .content .contact nav .navbar-dark .navbar-nav a.disabled, .navbar-dark nav.navbar-primary .navbar-nav li a.disabled, nav.navbar-primary .navbar-dark .navbar-nav li a.disabled, .navbar-dark .navbar-nav nav.social-nav a.disabled, nav.social-nav .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.disabled, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav a.disabled, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.disabled, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav a.disabled {
     color: rgba(255, 255, 255, 0.25); }
 
-.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav footer .footer-post .nav-links ul li .show > a, footer .footer-post .nav-links ul li .navbar-dark .navbar-nav .show > a,
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav header.header-primary .content .contact nav .show > a, header.header-primary .content .contact nav .navbar-dark .navbar-nav .show > a, .navbar-dark nav.navbar-primary .navbar-nav li .show > a, nav.navbar-primary .navbar-dark .navbar-nav li .show > a, .navbar-dark .navbar-nav nav.social-nav .show > a, nav.social-nav .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .show > a, .section.services .wrap .content .service ul li .navbar-dark .navbar-nav .show > a, .navbar-dark .navbar-nav .footer .footer-post .nav-links ul li .show > a, .footer .footer-post .nav-links ul li .navbar-dark .navbar-nav .show > a,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active > .nav-link, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.active > .nav-link,
@@ -3457,7 +3456,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav nav.social-nav a.active > a,
 .navbar-dark .navbar-nav .section.services .wrap .content .service ul li .active > a, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav .active > a,
-.navbar-dark .navbar-nav footer .footer-post .nav-links ul li .active > a, footer .footer-post .nav-links ul li
+.navbar-dark .navbar-nav .footer .footer-post .nav-links ul li .active > a, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav .active > a,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav header.header-primary .content .contact nav a.show, header.header-primary .content .contact nav
@@ -3468,7 +3467,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.show, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.show,
-.navbar-dark .navbar-nav footer .footer-post .nav-links ul li a.show, footer .footer-post .nav-links ul li
+.navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.show, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav a.show,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav header.header-primary .content .contact nav a.active, header.header-primary .content .contact nav
@@ -3481,7 +3480,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-nav a.active,
 .navbar-dark .navbar-nav .section.services .wrap .content .service ul li a.active, .section.services .wrap .content .service ul li
 .navbar-dark .navbar-nav a.active,
-.navbar-dark .navbar-nav footer .footer-post .nav-links ul li a.active, footer .footer-post .nav-links ul li
+.navbar-dark .navbar-nav .footer .footer-post .nav-links ul li a.active, .footer .footer-post .nav-links ul li
 .navbar-dark .navbar-nav a.active {
   color: white; }
 
@@ -3495,7 +3494,7 @@ tbody.collapse.show {
 .navbar-dark .navbar-text {
   color: rgba(255, 255, 255, 0.5); }
 
-.card, .section.newsfeed .news .wrapper article {
+.card, article {
   position: relative;
   display: -webkit-box;
   display: -webkit-flex;
@@ -3515,21 +3514,21 @@ tbody.collapse.show {
   -webkit-border-radius: 0.25rem;
           border-radius: 0.25rem; }
 
-.card-body, .section.newsfeed .news .wrapper article .entry-content {
+.card-body, article .entry-content {
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding: 1.25rem; }
 
-.card-title, .section.newsfeed .news .wrapper article .entry-content h4, .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a {
+.card-title, .section.services .wrap .content .service .tab-content .owl-carousel .item article .entry-content h4 a, article .entry-content h4 {
   margin-bottom: 0.75rem; }
 
 .card-subtitle {
   margin-top: -0.375rem;
   margin-bottom: 0; }
 
-.card-text:last-child, .section.newsfeed .news .wrapper article .entry-content time:last-child {
+.card-text:last-child, article .entry-content time:last-child {
   margin-bottom: 0; }
 
 .card-link:hover {
@@ -3538,13 +3537,13 @@ tbody.collapse.show {
 .card-link + .card-link {
   margin-left: 1.25rem; }
 
-.card > .list-group:first-child .list-group-item:first-child, .section.newsfeed .news .wrapper article > .list-group:first-child .list-group-item:first-child {
+.card > .list-group:first-child .list-group-item:first-child, article > .list-group:first-child .list-group-item:first-child {
   -webkit-border-top-left-radius: 0.25rem;
           border-top-left-radius: 0.25rem;
   -webkit-border-top-right-radius: 0.25rem;
           border-top-right-radius: 0.25rem; }
 
-.card > .list-group:last-child .list-group-item:last-child, .section.newsfeed .news .wrapper article > .list-group:last-child .list-group-item:last-child {
+.card > .list-group:last-child .list-group-item:last-child, article > .list-group:last-child .list-group-item:last-child {
   -webkit-border-bottom-right-radius: 0.25rem;
           border-bottom-right-radius: 0.25rem;
   -webkit-border-bottom-left-radius: 0.25rem;
@@ -3617,7 +3616,7 @@ tbody.collapse.show {
             flex-flow: row wrap;
     margin-right: -15px;
     margin-left: -15px; }
-    .card-deck .card, .section.newsfeed .news .wrapper .card, .section.newsfeed .news .wrapper article {
+    .card-deck .card, .section.newsfeed .news .wrapper .card, .card-deck article, .section.newsfeed .news .wrapper article {
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -3645,47 +3644,46 @@ tbody.collapse.show {
     -webkit-flex-flow: row wrap;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap; }
-    .card-group .card, .card-group .section.newsfeed .news .wrapper article, .section.newsfeed .news .wrapper .card-group article {
+    .card-group .card, .card-group article {
       -webkit-box-flex: 1;
       -webkit-flex: 1 0 0%;
           -ms-flex: 1 0 0%;
               flex: 1 0 0%; }
-      .card-group .card + .card, .card-group .section.newsfeed .news .wrapper article + .card, .section.newsfeed .news .wrapper .card-group article + .card, .card-group .section.newsfeed .news .wrapper .card + article, .section.newsfeed .news .wrapper .card-group .card + article, .card-group .section.newsfeed .news .wrapper article + article, .section.newsfeed .news .wrapper .card-group article + article {
+      .card-group .card + .card, .card-group article + .card, .card-group .card + article, .card-group article + article {
         margin-left: 0;
         border-left: 0; }
-      .card-group .card:first-child, .card-group .section.newsfeed .news .wrapper article:first-child, .section.newsfeed .news .wrapper .card-group article:first-child {
+      .card-group .card:first-child, .card-group article:first-child {
         -webkit-border-top-right-radius: 0;
                 border-top-right-radius: 0;
         -webkit-border-bottom-right-radius: 0;
                 border-bottom-right-radius: 0; }
-        .card-group .card:first-child .card-img-top, .card-group .section.newsfeed .news .wrapper article:first-child .card-img-top, .section.newsfeed .news .wrapper .card-group article:first-child .card-img-top {
+        .card-group .card:first-child .card-img-top, .card-group article:first-child .card-img-top {
           -webkit-border-top-right-radius: 0;
                   border-top-right-radius: 0; }
-        .card-group .card:first-child .card-img-bottom, .card-group .section.newsfeed .news .wrapper article:first-child .card-img-bottom, .section.newsfeed .news .wrapper .card-group article:first-child .card-img-bottom {
+        .card-group .card:first-child .card-img-bottom, .card-group article:first-child .card-img-bottom {
           -webkit-border-bottom-right-radius: 0;
                   border-bottom-right-radius: 0; }
-      .card-group .card:last-child, .card-group .section.newsfeed .news .wrapper article:last-child, .section.newsfeed .news .wrapper .card-group article:last-child {
+      .card-group .card:last-child, .card-group article:last-child {
         -webkit-border-top-left-radius: 0;
                 border-top-left-radius: 0;
         -webkit-border-bottom-left-radius: 0;
                 border-bottom-left-radius: 0; }
-        .card-group .card:last-child .card-img-top, .card-group .section.newsfeed .news .wrapper article:last-child .card-img-top, .section.newsfeed .news .wrapper .card-group article:last-child .card-img-top {
+        .card-group .card:last-child .card-img-top, .card-group article:last-child .card-img-top {
           -webkit-border-top-left-radius: 0;
                   border-top-left-radius: 0; }
-        .card-group .card:last-child .card-img-bottom, .card-group .section.newsfeed .news .wrapper article:last-child .card-img-bottom, .section.newsfeed .news .wrapper .card-group article:last-child .card-img-bottom {
+        .card-group .card:last-child .card-img-bottom, .card-group article:last-child .card-img-bottom {
           -webkit-border-bottom-left-radius: 0;
                   border-bottom-left-radius: 0; }
-      .card-group .card:not(:first-child):not(:last-child), .card-group .section.newsfeed .news .wrapper article:not(:first-child):not(:last-child), .section.newsfeed .news .wrapper .card-group article:not(:first-child):not(:last-child) {
+      .card-group .card:not(:first-child):not(:last-child), .card-group article:not(:first-child):not(:last-child) {
         -webkit-border-radius: 0;
                 border-radius: 0; }
-        .card-group .card:not(:first-child):not(:last-child) .card-img-top, .card-group .section.newsfeed .news .wrapper article:not(:first-child):not(:last-child) .card-img-top, .section.newsfeed .news .wrapper .card-group article:not(:first-child):not(:last-child) .card-img-top,
+        .card-group .card:not(:first-child):not(:last-child) .card-img-top, .card-group article:not(:first-child):not(:last-child) .card-img-top,
         .card-group .card:not(:first-child):not(:last-child) .card-img-bottom,
-        .card-group .section.newsfeed .news .wrapper article:not(:first-child):not(:last-child) .card-img-bottom, .section.newsfeed .news .wrapper
         .card-group article:not(:first-child):not(:last-child) .card-img-bottom {
           -webkit-border-radius: 0;
                   border-radius: 0; } }
 
-.card-columns .card, .card-columns .section.newsfeed .news .wrapper article, .section.newsfeed .news .wrapper .card-columns article {
+.card-columns .card, .card-columns article {
   margin-bottom: 0.75rem; }
 
 @media (min-width: 576px) {
@@ -3696,7 +3694,7 @@ tbody.collapse.show {
     -webkit-column-gap: 1.25rem;
        -moz-column-gap: 1.25rem;
             column-gap: 1.25rem; }
-    .card-columns .card, .card-columns .section.newsfeed .news .wrapper article, .section.newsfeed .news .wrapper .card-columns article {
+    .card-columns .card, .card-columns article {
       display: inline-block;
       width: 100%; } }
 
@@ -5182,7 +5180,7 @@ a.bg-dark:focus, a.bg-dark:hover {
       -ms-flex-direction: row !important;
           flex-direction: row !important; }
 
-.flex-column, footer .footer-post .nav-links ul {
+.flex-column, .footer .footer-post .nav-links ul {
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
   -webkit-flex-direction: column !important;
@@ -5224,7 +5222,7 @@ a.bg-dark:focus, a.bg-dark:hover {
       -ms-flex-pack: start !important;
           justify-content: flex-start !important; }
 
-.justify-content-end, footer .footer-copy .social-nav {
+.justify-content-end, .footer .footer-copy .social-nav {
   -webkit-box-pack: end !important;
   -webkit-justify-content: flex-end !important;
       -ms-flex-pack: end !important;
@@ -5247,7 +5245,7 @@ a.bg-dark:focus, a.bg-dark:hover {
       -ms-flex-pack: distribute !important;
           justify-content: space-around !important; }
 
-.align-items-start, footer .footer-post {
+.align-items-start, .footer .footer-post {
   -webkit-box-align: start !important;
   -webkit-align-items: flex-start !important;
       -ms-flex-align: start !important;
@@ -5259,7 +5257,7 @@ a.bg-dark:focus, a.bg-dark:hover {
       -ms-flex-align: end !important;
           align-items: flex-end !important; }
 
-.align-items-center, header.header-primary .content, .slider-main .owl-item .item-container, footer .footer-pre, footer .footer-copy {
+.align-items-center, header.header-primary .content, .slider-main .owl-item .item-container, .footer .footer-pre, .footer .footer-copy {
   -webkit-box-align: center !important;
   -webkit-align-items: center !important;
       -ms-flex-align: center !important;
@@ -6242,7 +6240,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 .my-auto {
   margin-top: auto !important; }
 
-.mr-auto, footer .footer-pre .segdi, footer .footer-copy .copy,
+.mr-auto, .footer .footer-pre .segdi, .footer .footer-copy .copy,
 .mx-auto {
   margin-right: auto !important; }
 
@@ -7115,7 +7113,7 @@ a.text-light:focus, a.text-light:hover {
 a.text-dark:focus, a.text-dark:hover {
   color: #1d2124 !important; }
 
-.text-muted, .section.newsfeed .news .wrapper article .entry-content time, .page article header time {
+.text-muted, .page article header time, article .entry-content time {
   color: #868e96 !important; }
 
 .text-hide {
@@ -12464,8 +12462,9 @@ nav {
     border: 1px solid #868e96;
     color: #fff; }
     nav.sharing-nav a i {
-      padding-right: 0.5rem;
       color: #fff; }
+    nav.sharing-nav a span {
+      padding-left: 0.5rem; }
     nav.sharing-nav a:hover {
       background-color: #6c757d;
       border: 1px solid #6c757d; }
@@ -12481,6 +12480,8 @@ nav {
       nav.sharing-nav a.tw:hover {
         background-color: #2795e9;
         border: 1px solid #2795e9; }
+  nav.paginate {
+    display: block; }
 
 .dropdown-menu {
   -webkit-border-radius: 0;
@@ -12557,24 +12558,6 @@ nav {
     .section.newsfeed .news .wrapper .page-header {
       padding-left: 0;
       padding-right: 0; } }
-  .section.newsfeed .news .wrapper article {
-    border: 0 none;
-    -webkit-border-radius: 0;
-            border-radius: 0; }
-    .section.newsfeed .news .wrapper article .entry-content {
-      padding: 0.5rem 0 1.25rem; }
-      .section.newsfeed .news .wrapper article .entry-content h4 {
-        font-size: 1.15rem;
-        margin-bottom: 0.15rem; }
-        .section.newsfeed .news .wrapper article .entry-content h4 a {
-          color: #0079c2; }
-          .section.newsfeed .news .wrapper article .entry-content h4 a:hover {
-            color: #10a5ff; }
-        @media (max-width: 575px) {
-          .section.newsfeed .news .wrapper article .entry-content h4 {
-            font-size: 1rem; } }
-      .section.newsfeed .news .wrapper article .entry-content time {
-        font-size: 80%; }
   .section.newsfeed .events .wrapper .widget .entry-content {
     background-color: #0079c2;
     padding: 1.25rem; }
@@ -12727,29 +12710,52 @@ nav {
   margin-bottom: 1rem;
   border: 3px solid #dee2e6; }
 
+.page .fullpage article {
+  margin-bottom: 30px; }
+
+.page .fullpage article:first-child {
+  margin-bottom: 60px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse; }
+  .page .fullpage article:first-child .entry-content {
+    width: 50%;
+    float: left;
+    padding-right: 7rem; }
+    .page .fullpage article:first-child .entry-content h4 {
+      font-family: "latolight", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      font-smoothing: antialiased;
+      font-size: 2rem; }
+    .page .fullpage article:first-child .entry-content p {
+      margin-top: 0.5rem; }
+
 aside nav a {
   padding: 0.5rem 0 !important; }
 
-footer {
+.footer {
   background-color: #212529;
   padding: 0 0 15px !important;
   font-size: 80%; }
-  footer a {
+  .footer a {
     color: #dee2e6; }
-    footer a:hover {
+    .footer a:hover {
       color: #fff; }
-  footer .footer-pre {
+  .footer .footer-pre {
     margin-bottom: 0 !important;
     padding: 2rem 0; }
     @media (max-width: 575px) {
-      footer .footer-pre .segdi nav {
+      .footer .footer-pre .segdi nav {
         -webkit-box-pack: center !important;
         -webkit-justify-content: center !important;
             -ms-flex-pack: center !important;
                 justify-content: center !important; } }
-    footer .footer-pre .segdi nav a:first-child {
+    .footer .footer-pre .segdi nav a:first-child {
       padding-left: 0; }
-    footer .footer-pre .translate {
+    .footer .footer-pre .translate {
       /*
 			ul.social-nav{
 				@extend .nav;
@@ -12797,20 +12803,20 @@ footer {
 				} 
 			}
 			*/ }
-      footer .footer-pre .translate #google_translate_element {
+      .footer .footer-pre .translate #google_translate_element {
         float: right; }
         @media (max-width: 575px) {
-          footer .footer-pre .translate #google_translate_element {
+          .footer .footer-pre .translate #google_translate_element {
             float: none !important; } }
-  footer .footer-post {
+  .footer .footer-post {
     /* border-top: 1px solid #404040;
 	    border-bottom: 1px solid #404040;
 	    */
     padding: 2rem 0;
     margin-bottom: 1rem !important; }
-    footer .footer-post nav a {
+    .footer .footer-post nav a {
       padding: 0.25rem 0; }
-    footer .footer-post .nav-links h2 {
+    .footer .footer-post .nav-links h2 {
       font-family: "latobold", sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
@@ -12819,17 +12825,17 @@ footer {
       margin: 0 0 14px;
       color: #fff;
       text-transform: uppercase; }
-    footer .footer-post .nav-links ul li i {
+    .footer .footer-post .nav-links ul li i {
       color: #dee2e6;
       top: 0.7em; }
-    footer .footer-post .nav-links ul li a {
+    .footer .footer-post .nav-links ul li a {
       padding: 0.25rem 0; }
-  footer .footer-copy {
+  .footer .footer-copy {
     margin-bottom: 0 !important; }
-    footer .footer-copy .social-nav a {
+    .footer .footer-copy .social-nav a {
       border: 1px solid #dee2e6;
       margin-left: 0.5rem; }
-      footer .footer-copy .social-nav a i {
+      .footer .footer-copy .social-nav a i {
         color: #dee2e6; }
 
 @font-face {
@@ -12994,6 +13000,12 @@ a {
     color: #a92d30; }
     .dataTables_wrapper .dataTable tbody tr td.text-center a:hover {
       color: #bd3236; }
+  .dataTables_wrapper .dataTable tbody tr td ul li {
+    font-size: .85rem; }
+  .dataTables_wrapper .dataTable tbody tr.table-danger a {
+    color: #a92d30; }
+    .dataTables_wrapper .dataTable tbody tr.table-danger a:hover {
+      color: #6d1d1f; }
 
 .owl-stage-outer {
   margin-bottom: 20px; }
@@ -13042,3 +13054,22 @@ aside a {
   .top:hover {
     background-color: #fff;
     color: #a92d30; }
+
+article {
+  border: 0 none;
+  -webkit-border-radius: 0;
+          border-radius: 0; }
+  article .entry-content {
+    padding: 0.5rem 0 1.25rem; }
+    article .entry-content h4 {
+      font-size: 1.15rem;
+      margin-bottom: 0.15rem; }
+      article .entry-content h4 a {
+        color: #0079c2; }
+        article .entry-content h4 a:hover {
+          color: #10a5ff; }
+      @media (max-width: 575px) {
+        article .entry-content h4 {
+          font-size: 1rem; } }
+    article .entry-content time {
+      font-size: 80%; }

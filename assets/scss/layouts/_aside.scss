@@ -1,7 +1,33 @@
 aside{
+	background-color: $gray-100;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	.widget{
+		margin-bottom: 2rem;
+	}
+
+	a{
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+
+	dl{
+		font-size: 90%;
+		dt{
+			font-size: 85%;
+			text-transform: uppercase;
+		}
+		dd{
+			margin-bottom: 1rem;
+		}
+	}
+
 	nav{
 		a{
-		 padding: 0.5rem 0 !important;
+		 	padding: 0.5rem 0 !important;
+		 	&:hover{
+		 	}
 		}
 	}
 }

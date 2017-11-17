@@ -118,6 +118,14 @@ a{
 	}
 }
 
+ol.list-group{
+	li{
+		display: list-item !important;
+		font-size: 80%;
+		    padding: 0.75rem 0;
+	}
+}
+
 .section{
 	.page-header{
 		padding-bottom: 1.25rem;
@@ -235,7 +243,10 @@ a{
 
 main{
 	@extend .col-sm-8;
-	text-align: justify;
+	p{
+		text-align: justify;
+	}
+	
 	.fullpage{
 		@extend .col-sm-12;
 	}

@@ -12733,8 +12733,23 @@ nav {
     .page .fullpage article:first-child .entry-content p {
       margin-top: 0.5rem; }
 
-aside nav a {
-  padding: 0.5rem 0 !important; }
+aside {
+  background-color: #f8f9fa;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+  aside .widget {
+    margin-bottom: 2rem; }
+  aside a:hover {
+    text-decoration: underline; }
+  aside dl {
+    font-size: 90%; }
+    aside dl dt {
+      font-size: 85%;
+      text-transform: uppercase; }
+    aside dl dd {
+      margin-bottom: 1rem; }
+  aside nav a {
+    padding: 0.5rem 0 !important; }
 
 .footer {
   background-color: #212529;
@@ -12958,6 +12973,11 @@ a {
     .wrap .content {
       margin-bottom: 0; } }
 
+ol.list-group li {
+  display: list-item !important;
+  font-size: 80%;
+  padding: 0.75rem 0; }
+
 .section .page-header {
   padding-bottom: 1.25rem; }
   .section .page-header h2 {
@@ -13023,7 +13043,7 @@ a {
 .owl-dots .owl-dot.active span, .owl-dots .section.services .wrap .content .service ul li a.owl-dot.active span, .section.services .wrap .content .service ul li .owl-dots a.owl-dot.active span {
   background: #adb5bd; }
 
-main {
+main p {
   text-align: justify; }
 
 aside a {

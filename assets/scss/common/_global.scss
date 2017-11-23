@@ -144,74 +144,77 @@ ol.list-group{
 		}
 	}
 }
-		
-.dataTables_wrapper{
-	padding-left: 0;
-	padding-right: 0;
-	.dataTable{
-		@extend .table;
-		@extend .table-striped;
-		@extend .table-bordered;
-		thead, tfoot{
-			tr{
-				@extend .bg-info;
-				th{
-					color: $white;
-				}
+
+table{
+	@extend .table;
+	@extend .table-striped;
+	@extend .table-bordered;
+	thead, tfoot{
+		tr{
+			@extend .bg-info;
+			th{
+				color: $white;
 			}
 		}
-		tbody{
-			tr{
-				&.odd{
-					background-color: $sky-blue;
+	}
+	tbody{
+		tr{
+			&.odd{
+				background-color: $sky-blue;
+			}
+			&.even{
+				background-color: lighten($sky-blue, 5%);
+			}
+			td{
+				a{
+					color: $blue;
+					&:hover{
+						color: lighten($blue, 5%);
+					}
 				}
-				&.even{
-					background-color: lighten($sky-blue, 5%);
+				h4{
+					@include media-breakpoint-down(xs) {
+						font-size: 1rem;
+					}
+					font-size: 1.25rem;
 				}
-				td{
+				p{
+					font-size: 80%;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+				&.text-center{
 					a{
-						color: $blue;
-						&:hover{
-							color: lighten($blue, 5%);
-						}
-					}
-					h4{
-						@include media-breakpoint-down(xs) {
-							font-size: 1rem;
-						}
-						font-size: 1.25rem;
-					}
-					p{
-						font-size: 80%;
-						&:last-child{
-							margin-bottom: 0;
-						}
-					}
-					&.text-center{
-						a{
-						color: $red;
-						&:hover{
-								color: lighten($red, 5%);
-							}
-						}
-					}
-					ul{
-						li{
-							font-size: .85rem;
+					color: $red;
+					&:hover{
+							color: lighten($red, 5%);
 						}
 					}
 				}
-				&.table-danger{
-					a{
-						color: $red;
-						&:hover{
-							color: darken($red,15%);
-						}
+				ul{
+					li{
+						font-size: .85rem;
+					}
+				}
+			}
+			&.table-danger{
+				a{
+					color: $red;
+					&:hover{
+						color: darken($red,15%);
 					}
 				}
 			}
 		}
 	}
+
+}
+		
+.dataTables_wrapper{
+	padding-left: 0;
+	padding-right: 0;
+	
 }
 
 

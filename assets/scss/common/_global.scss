@@ -46,7 +46,7 @@
 }
 
 *{
-	webkit-transition: all .5s ease;
+	-webkit-transition: all .5s ease;
     transition: all .5s ease;
 }
 
@@ -145,7 +145,7 @@ ol.list-group{
 	}
 }
 
-table{
+.table-all{
 	@extend .table;
 	@extend .table-striped;
 	@extend .table-bordered;
@@ -214,7 +214,9 @@ table{
 .dataTables_wrapper{
 	padding-left: 0;
 	padding-right: 0;
-	
+	table{
+		@extend .table-all;
+	}
 }
 
 
